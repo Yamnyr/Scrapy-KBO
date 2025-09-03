@@ -1,0 +1,1767 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="iso-8859-1" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/img_2024/logos/justitie_favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annexe Personnes morales</title>
+   
+    <script type="module" crossorigin src="/css_2024/article.js"></script>
+  <!--  <script type="module" crossorigin src="/css_2024/list.js"></script> -->
+    <script type="module" crossorigin src="/css_2024/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/css_2024/index.css">
+ <!--   <link rel="stylesheet" crossorigin href="/css_2024/list.css"> -->
+    <link rel="stylesheet" crossorigin href="/css_2024/article.css">
+ <!--  <link rel="stylesheet" crossorigin href="/css_2024/search.css"> -->
+  </head>
+  <body>
+    <div class="page">
+      <!-- Dit is sectie voor top navigatie, taal en andere diensten -->
+      <div class="page__wrapper page__wrapper--tools no-print">
+        <div class="page__section page__section--tools">
+          <nav>
+            <ul>
+              <li class="nav-language-item">
+                <a href="list.pl?language=nl&btw=200305493&page=" class="nav__language-button ">NL</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="list.pl?language=fr&btw=200305493&page=" class="nav__language-button active">FR</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="list.pl?language=de&btw=200305493&page=" class="nav__language-button ">DE</a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <small class="nav__federalheader__link"
+              >Autres informations et services officiels:
+              <a href="https://www.belgium.be/fr">www.belgium.be</a> 
+              </small>
+              <a href="https://www.belgium.be/fr">
+              <img src="/img_2024/logos/logo-be_black.svg"
+              alt="Logo of the Belgian Federal Authorities"
+              class="nav__federalheader__logo"
+            />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dit is sectie voor logo en menu -->
+      <div class="page__wrapper page__wrapper--header no-print">
+        <header class="page__section page__section--header">
+          <div class="justice-logo">
+            <a href="https://justice.belgium.be/fr" title="Return to the Service public Fédéral Justice homepage" rel="home">
+              <img
+                src="/img_2024/logos/fod-fr.svg"
+                class="site-name"
+                alt="Return to the Service public Fédéral Justice homepage"
+                width="168"
+                height="36"
+              />
+            </a>
+          </div>
+          <button
+            id="headerCollapsibleButton"
+            type="button"
+            class="button button--toggler close"
+            aria-controls="headerCollapsible"
+            aria-expanded="false"
+            style="cursor: pointer"
+          >
+            <span class="label">Menu</span>
+            <span class="menu-icon"></span>
+          </button>
+          <div class="region region--header-collapsible" id="headerCollapsible">
+            <nav
+              id="block-header"
+              aria-label="Header"
+              class="block block--menu block--menu--header block--region-header-collapsible"
+            >
+              <div class="block__content">
+                <ul class="menu menu-level-0">
+                  
+                  <li class="menu-item">
+                    <a href="/cgi/welcome.pl?language=fr">Moniteur belge</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_tsv_pub/welcome.pl?language=fr">Annexe Personnes<br> morales</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_loi/welcome.pl?language=fr">Banque de <br>donn&eacute;es Justel</a>
+                  </li>
+                 <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi/faq.pl?language=fr">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+<!-- Dit is sectie voor breadcrumbs -->
+       <div class="page__wrapper page__wrapper--breadcrumb">
+         <div class="page__section page__section--breadcrumb">
+           <div
+             id="block-justice-theme-breadcrumbs"
+             class="block block--system block--system--justice-theme-breadcrumbs block--system--breadcrumb"
+           >
+             <div class="block__content no-print">
+               <nav class="breadcrumb" aria-label="Kruimelpad">
+                 <ol>
+                   <li><a href="https://www.ejustice.just.fgov.be/cgi/welcome.pl?language=fr" title="Home" class="item">Home</a></li>
+                   <li>
+                     <span class="item"><a href="/cgi_tsv_pub/welcome.pl?language=fr" title="">Annexe Personnes morales</a></span>
+                   </li>
+                   <li>
+                     <span class="item"><a href="rech.pl?language=fr&btw=200305493" title="Recherche"> Recherche</a></span>
+                   </li>
+                   <li>
+                     <span class="item">Liste (68)</span>
+                   </li>
+                   </li>
+                 </ol>
+               </nav>
+             </div>
+           </div>
+         </div>
+       </div>
+  <!-- Dit is sectie voor content -->
+    <link rel="stylesheet" crossorigin href="/css_2024/standards.css">
+
+    <div class="page__wrapper page__wrapper--content">
+      <div class="page__section page__section--content">
+        <main class="page__inner page__inner--content" role="main">
+        
+          
+          
+<div class="pagination-container">
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200305493" class="pagination-button pagination-first"></a>
+<span class="pagination-button active">1</span>
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200305493" class="pagination-button pagination-last"></a>
+</div>
+          <div class="list-content">
+           <div class="list">
+<A name="SUM0"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+1) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=0&view_numac=&btw=200305493" class="list-item--title">
+GENTSESTEENWEG 1B 9520 SINT-LIEVENS-HOUTEM
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+2025-04-24 / 0054126  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2025/04/24/25054126.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=0&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM1"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+2) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=1&view_numac=&btw=200305493" class="list-item--title">
+GENTSESTEENWEG 1B 9520 SINT-LIEVENS-HOUTEM
+<br>
+200.305.493
+<br>
+STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2023-10-17 / 0132638  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2023/10/17/23132638.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=1&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM2"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+3) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=2&view_numac=&btw=200305493" class="list-item--title">
+GENTSESTEENWEG 1B 9520 SINT-LIEVENS-HOUTEM
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+2022-05-11 / 0058302  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2022/05/11/22058302.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=2&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM3"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+4) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=3&view_numac=&btw=200305493" class="list-item--title">
+GENTSESTEENWEG 1B 9520 SINT-LIEVENS-HOUTEM
+<br>
+200.305.493
+<br>
+STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2021-12-24 / 0150922  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2021/12/24/21150922.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=3&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM4"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+5) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=4&view_numac=&btw=200305493" class="list-item--title">
+GENTSESTEENWEG 1B 9520 SINT-LIEVENS-HOUTEM
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+2021-07-29 / 0091062  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2021/07/29/21091062.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=4&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM5"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+6) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=5&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 25B 9320 AALST (NIEUWERKERKEN)
+<br>
+200.305.493
+<br>
+MAATSCHAPPELIJKE ZETEL -  ONTSLAGEN - BENOEMINGEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2020-01-03 / 0001593  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2020/01/03/20001593.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=5&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM6"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+7) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=6&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 25B 9320 AALST (NIEUWERKERKEN)
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+2019-09-09 / 0120715  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2019/09/09/19120715.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=6&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM7"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+8) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=7&view_numac=&btw=200305493" class="list-item--title">
+JOSEPH CARDIJNSTRAAT 60 9420 ERPE-MERE
+<br>
+200.305.493
+<br>
+MAATSCHAPPELIJKE ZETEL -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2017-11-24 / 0165097  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2017/11/24/17165097.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=7&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM8"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+9) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=8&view_numac=&btw=200305493" class="list-item--title">
+JOSEPH CARDIJNSTRAAT 60 9420 ERPE-MERE
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2015, GGK 20.06.2016, NGL 15.07.2016  16337-0473-038
+<br>
+2016-07-28 / 0197334  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=8&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM9"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+10) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=9&view_numac=&btw=200305493" class="list-item--title">
+JOSEPH CARDIJNSTRAAT 60 9420 ERPE-MERE
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2014, GGK 22.06.2015, NGL 23.06.2015  15206-0245-039
+<br>
+2015-06-26 / 0118630  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=9&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM10"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+11) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=10&view_numac=&btw=200305493" class="list-item--title">
+JOSEPH CARDIJNSTRAAT 60 9420 ERPE-MERE
+<br>
+200.305.493
+<br>
+ALGEMENE VERGADERING -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2014-07-09 / 0133014  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2014/07/09/14133014.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=10&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM11"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+12) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=11&view_numac=&btw=200305493" class="list-item--title">
+JOSEPH CARDIJNSTRAAT 60 9420 ERPE-MERE
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2013, GGK 23.06.2014, NGL 26.06.2014  14218-0575-039
+<br>
+2014-07-02 / 0131155  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=11&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM12"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+13) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=12&view_numac=&btw=200305493" class="list-item--title">
+JOSEPH CARDIJNSTRAAT 60 9420 ERPE-MERE
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+2013-10-04 / 0151380  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2013/10/04/13151380.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=12&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM13"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+14) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=13&view_numac=&btw=200305493" class="list-item--title">
+JOSEPH CARDIJNSTRAAT 60 9420 ERPE-MERE
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2012, GGK 25.06.2013, NGL 01.07.2013  13249-0196-039
+<br>
+2013-07-04 / 0141769  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=13&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM14"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+15) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=14&view_numac=&btw=200305493" class="list-item--title">
+JOSEPH CARDIJNSTRAAT 60 9420 ERPE-MERE
+<br>
+200.305.493
+<br>
+DIVERSEN 
+<br>
+2013-05-24 / 0078654  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2013/05/24/13078654.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=14&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM15"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+16) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=15&view_numac=&btw=200305493" class="list-item--title">
+JOSEPH CARDIJNSTRAAT 60 9420 ERPE-MERE
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+2013-05-13 / 0072865  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2013/05/13/13072865.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=15&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM16"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+17) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=16&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 18 - ZUID III 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+MAATSCHAPPELIJKE ZETEL 
+<br>
+2012-09-21 / 0158631  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2012/09/21/12158631.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=16&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM17"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+18) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=17&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 18 - ZUID III 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2011, GGK 25.06.2012, NGL 12.09.2012  12563-0522-035
+<br>
+2012-09-18 / 0329408  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=17&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM18"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+19) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=18&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 18 - ZUID III 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2010, GGK 27.06.2011, NGL 04.07.2011  11259-0018-035
+<br>
+2011-07-08 / 0150107  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=18&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM19"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+20) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=19&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+MAATSCHAPPELIJKE ZETEL 
+<br>
+2010-08-11 / 0120358  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/08/11/10120358.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=19&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM20"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+21) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=20&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2009, GGK 28.06.2010, NGL 05.07.2010  10269-0138-036
+<br>
+2010-07-08 / 0148515  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=20&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM21"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+22) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=21&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2008, GGK 29.06.2009, NGL 16.07.2009  09450-0197-038
+<br>
+2009-07-28 / 0180125  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=21&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM22"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+23) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=22&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2009-05-26 / 0074261  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2009/05/26/09074261.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=22&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM23"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+24) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=23&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2007, GGK 30.06.2008, NGL 02.07.2008  08353-0190-036
+<br>
+2008-07-09 / 0141644  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=23&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM24"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+25) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=24&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2006, GGK 25.06.2007, NGL 03.07.2007  07351-0307-038
+<br>
+2007-07-09 / 0134652  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=24&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM25"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+26) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT : SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=25&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN -  ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2007-04-06 / 0052551  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2007/04/06/07052551.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=25&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM26"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+27) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=26&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2005, GGK 26.06.2006, NGL 27.06.2006  06328-0752-031
+<br>
+2006-06-29 / 0116815  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=26&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM27"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+28) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=27&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2004, GGK 27.06.2005, NGL 04.07.2005  05395-0287-030
+<br>
+2005-07-06 / 0139665  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=27&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM28"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+29) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=28&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2005-02-25 / 0032208  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2005/02/25/05032208.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=28&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM29"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+30) <font color=blue>INTERGEMEENTELIJK SAMENWERKINGSVERBAND VOOR RUIMTELIJKE ORDENING EN SOCIO-ECONOMISCHE EXPANSIE, AFGEKORT SOLVA</font>&nbsp;&nbsp;DIENSTVERLENENDE VER
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=29&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.2003, GGK 21.06.2004, NGL 29.06.2004  04352-3332-030
+<br>
+2004-07-02 / 0123847  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=29&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM30"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+31) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=30&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+BENAMING -  WIJZIGING RECHTSVORM -  DOEL -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2003-11-21 / 0122602  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2003/11/21/03122602.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=30&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM31"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+32) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=31&view_numac=&btw=200305493" class="list-item--title">
+3° INDUTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+2003-10-14 / 0106281  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2003/10/14/03106281.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=31&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM32"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+33) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=32&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+DIVERSEN -  RUBRIEK HERSTRUCTURERING (FUSIE, SPLITSING, OVERDRACHT VERMOGEN, ENZ...) 
+<br>
+2003-08-22 / 0088404  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2003/08/22/03088404.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=32&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM33"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+34) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=33&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING  31.12.2002, GGK 16.06.2003  03583-3467-028
+<br>
+2003-08-13 / 0202428  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=33&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM34"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+35) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=34&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+2002-07-09 / 038  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2002/07/09/2002-07-09_0038.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=34&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM35"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+36) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=35&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING  31.12.2001, GGK 11.06.2002  02233-2260-030
+<br>
+2002-06-20 / 0084377  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=35&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM36"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+37) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=36&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING  31.12.2000, GGK 28.05.2001  01735-1694-031
+<br>
+2001-12-12 / 0256747  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=36&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM37"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+38) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=37&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN -  KAPITAAL - AANDELEN 
+<br>
+2001-11-06 / 800  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2001/11/06/2001-11-06_0800.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=37&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM38"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+39) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=38&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE -INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING  31.12.1999, GGK 22.06.2000  00370-0634-030
+<br>
+2000-07-14 / 0125745  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=38&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM39"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+40) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=39&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+2000-05-23 / 232  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2000/05/23/2000-05-23_0232.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=39&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM40"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+41) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=40&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+1999-10-30 / 369  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/1999/10/30/1999-10-30_0369.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=40&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM41"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+42) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=41&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+1999-10-26 / 504  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/1999/10/26/1999-10-26_0504.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=41&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM42"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+43) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=42&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE - INDUSTRIELAAN 2 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.1998, GGK 10.06.1999 -   99303-1319-031
+<br>
+1999-07-16 / 0118099  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=42&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM43"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+44) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=43&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE  9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+MAATSCHAPPELIJKE ZETEL -  ONTSLAGEN - BENOEMINGEN 
+<br>
+1998-07-07 / 107  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/1998/07/07/1998-07-07_0107.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=43&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM44"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+45) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=44&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE I 9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.97, GGK 09.06.98 -   98311-0769-030
+<br>
+1998 / 120281  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=44&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM45"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+46) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CVBA 
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=45&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE  9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.96, GGK 10.06.97 -   97303-3704-029
+<br>
+1997 / 117492  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=45&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM46"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+47) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST </font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=46&view_numac=&btw=200305493" class="list-item--title">
+3° NDUSTRIEZONE  9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+BENAMING -  ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+1996-01-11 / 133  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=46&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM47"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+48) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST </font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=47&view_numac=&btw=200305493" class="list-item--title">
+3° INDUSTRIEZONE  9320 EREMBODEGEM
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.95, GGK 07.05.96 -   96186-4198-030
+<br>
+1996 / 081784  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=47&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM48"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+49) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST </font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=48&view_numac=&btw=200305493" class="list-item--title">
+  AALST (EREMBODEGEM)
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+1995-08-01 / 275  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=48&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM49"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+50) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST </font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=49&view_numac=&btw=200305493" class="list-item--title">
+  AALST (EREMBODEGEM)
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.94, GGK 25.04.95 -   95238-4155-031
+<br>
+1995 / 066583  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=49&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM50"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+51) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=50&view_numac=&btw=200305493" class="list-item--title">
+  AALST (EREMBODEGEM)
+<br>
+200.305.493
+<br>
+ONTSLAGEN - BENOEMINGEN 
+<br>
+1994-12-30 / 250  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=50&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM51"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+52) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CVBA
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=51&view_numac=&btw=200305493" class="list-item--title">
+  AALST (EREMBODEGEM)
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.93, GGK 21.06.94 -   94253-1567-030
+<br>
+1994 / 110908  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=51&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM52"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+53) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=52&view_numac=&btw=200305493" class="list-item--title">
+  AALST (EREMBODEGEM)
+<br>
+200.305.493
+<br>
+WIJZIGING RECHTSVORM -  ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+1993-06-11 / 039  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=52&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM53"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+54) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=53&view_numac=&btw=200305493" class="list-item--title">
+  AALST (EREMBODEGEM)
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.92, GGK 18.05.93 -   93234-0403-017
+<br>
+1993 / 098779  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=53&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM54"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+55) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=54&view_numac=&btw=200305493" class="list-item--title">
+  AALST (EREMBODEGEM)
+<br>
+200.305.493
+<br>
+MAATSCHAPPELIJKE ZETEL 
+<br>
+1992-05-19 / 113  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=54&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM55"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+56) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=55&view_numac=&btw=200305493" class="list-item--title">
+  AALST (EREMBODEGEM)
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.91, GGK 19.05.92 -   92070-4682-013
+<br>
+1992 / 037658  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=55&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM56"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+57) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=56&view_numac=&btw=200305493" class="list-item--title">
+INDUSTRIELAAN-INDUSTRIEZONE III 9320 AALST (EREMBODEGEM)
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.91, GGK 19.05.92 -   92200-4206-013
+<br>
+1992 / 091188  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=56&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM57"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+58) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=57&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.90, GGK 25.06.91 -   91126-0534-012
+<br>
+1991 / 064318  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=57&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM58"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+59) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=58&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.89, GGK 26.06.90 -   90118-3060-012
+<br>
+1990 / 060281  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=58&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM59"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+60) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=59&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+DIVERSEN 
+<br>
+1989-07-15 / 184  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=59&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM60"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+61) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=60&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>
+1989-01-27 / 231  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=60&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM61"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+62) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=61&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.88, GGK 16.05.89 -   89127-2642-012
+<br>
+1989 / 064401  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=61&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM62"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+63) <font color=blue>INTERCOMMUNALE VERENIGING VOOR DE RUIMTELIJKE ORDENING EN SOCIAAL-ECONOMISCHE EXPANSIE VAN HET ARRONDISSEMENT AALST, LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=62&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.87, GGK 14.06.88 -   88119-4052-012
+<br>
+1988 / 060203  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=62&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM63"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+64) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=63&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.86, GGK 16.06.87 -   87150-2752-012
+<br>
+1987 / 064454  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=63&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM64"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+65) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=64&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.85, GGK 10.06.86 -   86165-1563-014
+<br>
+1986 / 039591  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=64&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM65"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+66) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=65&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+ME. - JAARREKENING 31.12.84, GGK 11.06.85 -   85248-0068-012
+<br>
+1985 / 64119  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=65&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM66"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+67) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=66&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+ME. - BALANS 31.12.1983, GGK 25.06.1984  84100-0284-011
+<br>
+1984 / 58564  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=66&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM67"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+68) <font color=blue>INTERCOMMUNALE VERENIGING LAND VAN AALST</font>&nbsp;&nbsp;CV  
+
+</p>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=67&view_numac=&btw=200305493" class="list-item--title">
+  AALST
+<br>
+200.305.493
+<br>
+ME. - BALANS 31.12.1982, GGK 20.06.1983  83103-1334-011
+<br>
+1983 / 62240  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200305493&page=1&la_search=f&caller=list&=67&view_numac=&btw=200305493" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+  
+            </div>
+           <button class="button button-full button-to-top button-to-top--left">Haut de la page</button>
+          </div>
+<div class="pagination-container">
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200305493" class="pagination-button pagination-first"></a>
+<span class="pagination-button active">1</span>
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200305493" class="pagination-button pagination-last"></a>
+</div>
+        </main>
+      </div>
+    </div>
+     <!-- Dit is sectie voor footer -->
+    <footer class="page__wrapper page__wrapper--footer no-print">
+      <div class="page__section page__section--footer">
+        <nav class="block-footer" aria-label="Footer">
+          <div>
+            <p class="footer-title">Informations générales</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="/img_2024/pdf/GebruiksvoorwaardenFR.pdf" target="_blank">Conditions d'utilisation</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-title">Liens utiles</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="https://justitie.belgium.be/fr" target="_blank">SPF Justice</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.om-mp.be/fr" target="_blank">Ministère Public</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.rechtbanken-tribunaux.be/fr" target="_blank">Cours & tribunaux</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://justice.belgium.be/fr/ordre_judiciaire/cours_et_tribunaux/cour_de_cassation" target="_blank">Cours de cassation</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="copyright">
+           Copyright &copy; 2024 Service Public Fédéral Belge
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+

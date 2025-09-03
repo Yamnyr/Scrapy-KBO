@@ -1,0 +1,1790 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="iso-8859-1" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/img_2024/logos/justitie_favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annexe Personnes morales</title>
+   
+    <script type="module" crossorigin src="/css_2024/article.js"></script>
+  <!--  <script type="module" crossorigin src="/css_2024/list.js"></script> -->
+    <script type="module" crossorigin src="/css_2024/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/css_2024/index.css">
+ <!--   <link rel="stylesheet" crossorigin href="/css_2024/list.css"> -->
+    <link rel="stylesheet" crossorigin href="/css_2024/article.css">
+ <!--  <link rel="stylesheet" crossorigin href="/css_2024/search.css"> -->
+  </head>
+  <body>
+    <div class="page">
+      <!-- Dit is sectie voor top navigatie, taal en andere diensten -->
+      <div class="page__wrapper page__wrapper--tools no-print">
+        <div class="page__section page__section--tools">
+          <nav>
+            <ul>
+              <li class="nav-language-item">
+                <a href="list.pl?language=nl&btw=200362408&page=" class="nav__language-button ">NL</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="list.pl?language=fr&btw=200362408&page=" class="nav__language-button active">FR</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="list.pl?language=de&btw=200362408&page=" class="nav__language-button ">DE</a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <small class="nav__federalheader__link"
+              >Autres informations et services officiels:
+              <a href="https://www.belgium.be/fr">www.belgium.be</a> 
+              </small>
+              <a href="https://www.belgium.be/fr">
+              <img src="/img_2024/logos/logo-be_black.svg"
+              alt="Logo of the Belgian Federal Authorities"
+              class="nav__federalheader__logo"
+            />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dit is sectie voor logo en menu -->
+      <div class="page__wrapper page__wrapper--header no-print">
+        <header class="page__section page__section--header">
+          <div class="justice-logo">
+            <a href="https://justice.belgium.be/fr" title="Return to the Service public Fédéral Justice homepage" rel="home">
+              <img
+                src="/img_2024/logos/fod-fr.svg"
+                class="site-name"
+                alt="Return to the Service public Fédéral Justice homepage"
+                width="168"
+                height="36"
+              />
+            </a>
+          </div>
+          <button
+            id="headerCollapsibleButton"
+            type="button"
+            class="button button--toggler close"
+            aria-controls="headerCollapsible"
+            aria-expanded="false"
+            style="cursor: pointer"
+          >
+            <span class="label">Menu</span>
+            <span class="menu-icon"></span>
+          </button>
+          <div class="region region--header-collapsible" id="headerCollapsible">
+            <nav
+              id="block-header"
+              aria-label="Header"
+              class="block block--menu block--menu--header block--region-header-collapsible"
+            >
+              <div class="block__content">
+                <ul class="menu menu-level-0">
+                  
+                  <li class="menu-item">
+                    <a href="/cgi/welcome.pl?language=fr">Moniteur belge</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_tsv_pub/welcome.pl?language=fr">Annexe Personnes<br> morales</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_loi/welcome.pl?language=fr">Banque de <br>donn&eacute;es Justel</a>
+                  </li>
+                 <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi/faq.pl?language=fr">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+<!-- Dit is sectie voor breadcrumbs -->
+       <div class="page__wrapper page__wrapper--breadcrumb">
+         <div class="page__section page__section--breadcrumb">
+           <div
+             id="block-justice-theme-breadcrumbs"
+             class="block block--system block--system--justice-theme-breadcrumbs block--system--breadcrumb"
+           >
+             <div class="block__content no-print">
+               <nav class="breadcrumb" aria-label="Kruimelpad">
+                 <ol>
+                   <li><a href="https://www.ejustice.just.fgov.be/cgi/welcome.pl?language=fr" title="Home" class="item">Home</a></li>
+                   <li>
+                     <span class="item"><a href="/cgi_tsv_pub/welcome.pl?language=fr" title="">Annexe Personnes morales</a></span>
+                   </li>
+                   <li>
+                     <span class="item"><a href="rech.pl?language=fr&btw=200362408" title="Recherche"> Recherche</a></span>
+                   </li>
+                   <li>
+                     <span class="item">Liste (69)</span>
+                   </li>
+                   </li>
+                 </ol>
+               </nav>
+             </div>
+           </div>
+         </div>
+       </div>
+  <!-- Dit is sectie voor content -->
+    <link rel="stylesheet" crossorigin href="/css_2024/standards.css">
+
+    <div class="page__wrapper page__wrapper--content">
+      <div class="page__section page__section--content">
+        <main class="page__inner page__inner--content" role="main">
+        
+          
+          
+<div class="pagination-container">
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200362408" class="pagination-button pagination-first"></a>
+<span class="pagination-button active">1</span>
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200362408" class="pagination-button pagination-last"></a>
+</div>
+          <div class="list-content">
+           <div class="list">
+<A name="SUM0"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+1) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=0&view_numac=&btw=200362408" class="list-item--title">
+RUE DU CERF 200 1332 GENVAL (RIXENSART)
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2025-07-22 / 0091070  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2025/07/22/25091070.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=0&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM1"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+2) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=1&view_numac=&btw=200362408" class="list-item--title">
+RUE DU CERF 200 1332 GENVAL (RIXENSART)
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2025-03-11 / 0034229  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2025/03/11/25034229.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=1&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM2"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+3) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=2&view_numac=&btw=200362408" class="list-item--title">
+RUE DU CERF 200 1332 GENVAL (RIXENSART)
+<br>
+200.362.408
+<br>
+STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2024-12-23 / 0179568  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2024/12/23/24179568.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=2&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM3"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+4) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=3&view_numac=&btw=200362408" class="list-item--title">
+RUE DU CERF 200 1332 GENVAL (RIXENSART)
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2024-06-19 / 0092654  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2024/06/19/24092654.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=3&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM4"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+5) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=4&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) -  MODIFICATION FORME JURIDIQUE 
+<br>
+2023-02-13 / 0020839  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2023/02/13/23020839.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=4&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM5"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+6) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=5&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2022-07-19 / 0087038  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2022/07/19/22087038.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=5&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM6"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+7) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=6&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2022-01-27 / 0011694  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2022/01/27/22011694.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=6&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM7"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+8) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=7&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2021-07-19 / 0086767  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2021/07/19/21086767.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=7&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM8"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+9) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=8&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2021-02-17 / 0021318  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2021/02/17/21021318.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=8&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM9"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+10) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=9&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2020-11-24 / 0138548  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2020/11/24/20138548.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=9&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM10"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+11) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=10&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2019-07-30 / 0103917  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2019/07/30/19103917.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=10&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM11"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+12) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=11&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2019-03-05 / 0032032  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2019/03/05/19032032.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=11&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM12"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+13) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=12&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2018-07-25 / 0115981  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2018/07/25/18115981.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=12&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM13"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+14) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=13&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2018-01-17 / 0012005  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2018/01/17/18012005.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=13&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM14"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+15) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=14&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2017-07-18 / 0104172  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2017/07/18/17104172.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=14&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM15"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+16) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=15&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2017-04-03 / 0047683  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2017/04/03/17047683.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=15&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM16"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+17) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=16&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2015, APP 27.06.2016, DPT 30.06.2016  16266-0210-057
+<br>
+2016-07-05 / 0144516  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=16&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM17"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+18) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=17&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2016-01-06 / 0001836  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2016/01/06/16001836.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=17&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM18"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+19) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=18&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS -  DIVERS 
+<br>
+2015-07-16 / 0102908  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2015/07/16/15102908.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=18&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM19"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+20) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=19&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2014, APP 24.06.2015, DPT 01.07.2015  15273-0151-042
+<br>
+2015-07-10 / 0159345  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=19&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM20"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+21) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=20&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2015-02-03 / 0018539  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2015/02/03/15018539.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=20&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM21"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+22) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=21&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2014-08-01 / 0148410  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2014/08/01/14148410.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=21&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM22"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+23) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=22&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2013, APP 12.06.2014, DPT 08.07.2014  14286-0326-042
+<br>
+2014-07-14 / 0165484  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=22&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM23"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+24) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=23&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2013-08-06 / 0123219  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2013/08/06/13123219.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=23&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM24"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+25) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=24&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2012, APP 24.06.2013, DPT 23.07.2013  13339-0256-044
+<br>
+2013-07-26 / 0196855  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=24&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM25"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+26) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=25&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2013-01-29 / 0016721  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2013/01/29/13016721.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=25&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM26"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+27) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=26&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2011, APP 20.06.2012, DPT 21.06.2012  12213-0156-041
+<br>
+2012-06-29 / 0124251  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=26&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM27"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+28) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=27&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2011-09-26 / 0144885  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2011/09/26/11144885.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=27&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM28"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+29) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=28&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2011-08-08 / 0122013  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2011/08/08/11122013.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=28&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM29"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+30) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=29&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2010, APP 22.06.2011, DPT 19.07.2011  11317-0005-039
+<br>
+2011-07-26 / 0182557  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=29&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM30"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+31) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=30&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2011-03-02 / 0033783  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2011/03/02/11033783.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=30&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM31"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+32) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=31&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2009, APP 28.06.2010, DPT 29.06.2010  10251-0509-042
+<br>
+2010-07-07 / 0143679  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=31&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM32"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+33) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=32&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2010-05-18 / 0071467  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/05/18/10071467.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=32&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM33"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+34) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=33&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2008, APP 29.06.2009, DPT 08.07.2009   09399-0040-039
+<br>
+2009-07-15 / 0158381  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=33&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM34"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+35) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=34&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2007, APP 18.06.2008, DPT 02.07.2008   08346-0127-037
+<br>
+2008-07-07 / 0136002  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=34&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM35"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+36) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=35&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2008-06-03 / 0080630  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2008/06/03/08080630.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=35&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM36"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+37) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=36&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2007-07-27 / 0112891  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2007/07/27/07112891.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=36&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM37"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+38) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=37&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2006, APP 25.06.2007, DPT 29.06.2007   07323-0336-034
+<br>
+2007-07-04 / 0122756  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=37&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM38"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+39) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=38&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2005, APP 26.06.2006, DPT 14.08.2006   06635-2882-022
+<br>
+2006-08-18 / 0218782  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=38&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM39"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+40) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=39&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE-
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2004, APP 29.06.2005, DPT 05.07.2005   05437-0073-025
+<br>
+2005-07-12 / 0152897  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=39&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM40"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+41) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=40&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2005-05-31 / 0076214  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2005/05/31/05076214.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=40&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM41"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+42) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=41&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.2003, APP 19.11.2004, DPT 26.11.2004   04817-5074-024
+<br>
+2004-12-03 / 0287170  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=41&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM42"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+43) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=42&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS  31.12.2002, APP 25.06.2003   03612-0248-031
+<br>
+2003-08-26 / 0218273  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=42&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM43"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+44) <font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=43&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2003-05-26 / 0058726  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2003/05/26/03058726.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=43&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM44"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+45) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=44&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS  31.12.2001, APP 20.06.2002  02407-0144-043
+<br>
+2002-07-31 / 0147286  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=44&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM45"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+46) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=45&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2002-07-24 / 369  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2002/07/24/2002-07-24_0369.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=45&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM46"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+47) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=46&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX.2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2001-08-31 / 063  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2001/08/31/2001-08-31_0063.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=46&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM47"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+48) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=47&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX.2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS  31.12.2000, APP 30.06.2001  01395-0185-037
+<br>
+2001-07-27 / 0147536  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=47&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM48"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+49) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=48&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2000-09-16 / 304  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2000/09/16/2000-09-16_0304.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=48&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM49"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+50) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=49&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS  31.12.1999, APP 30.06.2000  00465-0290-035
+<br>
+2000-08-09 / 0172312  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=49&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM50"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+51) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=50&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2000-02-22 / 474  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2000/02/22/2000-02-22_0474.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=50&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM51"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+52) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=51&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX.2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+1999-12-17 / 421  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/1999/12/17/1999-12-17_0421.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=51&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM52"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+53) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=52&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX.2 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.1998, APP 13.09.1999 -   99542-2402-040
+<br>
+1999-10-30 / 0210066  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=52&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM53"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+54) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=53&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2  DOMAINE DE CHASTRE 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.97, APP 30.06.98 -   98384-0772-016
+<br>
+1998 / 146471  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=53&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM54"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+55) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=54&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2  DOMAINE DE CHASTRE 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.96, APP 25.06.97 -   97287-3782-018
+<br>
+1997 / 111547  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=54&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM55"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+56) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=55&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2  DOMAINE DE CHASTRE 1450 CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.95, APP 26.06.96 -   96321-3932-016
+<br>
+1996 / 131462  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=55&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM56"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+57) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=56&view_numac=&btw=200362408" class="list-item--title">
+  CHASTRE
+<br>
+200.362.408
+<br>
+SIEGE SOCIAL 
+<br>
+1995-07-13 / 667  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=56&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM57"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+58) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=57&view_numac=&btw=200362408" class="list-item--title">
+  CHASTRE
+<br>
+200.362.408
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+1995-07-01 / 610  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=57&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM58"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+59) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=58&view_numac=&btw=200362408" class="list-item--title">
+  CHASTRE
+<br>
+200.362.408
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+1995-07-01 / 611  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=58&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM59"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+60) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=59&view_numac=&btw=200362408" class="list-item--title">
+  CHASTRE
+<br>
+200.362.408
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+1995-07-01 / 612  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=59&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM60"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+61) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=60&view_numac=&btw=200362408" class="list-item--title">
+  CHASTRE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.94, APP 30.06.95 -   95385-2807-015
+<br>
+1995 / 120990  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=60&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM61"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+62) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=61&view_numac=&btw=200362408" class="list-item--title">
+  TUBIZE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.93, APP 29.06.94 -   94281-1281-013
+<br>
+1994 / 118676  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=61&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM62"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+63) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=62&view_numac=&btw=200362408" class="list-item--title">
+  TUBIZE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.92, APP 30.06.93 -   93257-4968-016
+<br>
+1993 / 107906  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=62&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM63"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+64) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=63&view_numac=&btw=200362408" class="list-item--title">
+RUE DE GEMBLOUX 2  DOMAINE DE CHASTRE 1450 TUBIZE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.91, APP 25.06.92 -   92268-1775-013
+<br>
+1992 / 119652  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=63&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM64"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+65) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=64&view_numac=&btw=200362408" class="list-item--title">
+  TUBIZE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.90, APP 27.05.91 -   91226-4447-011
+<br>
+1991 / 112983  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=64&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM65"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+66) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=65&view_numac=&btw=200362408" class="list-item--title">
+  TUBIZE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.89, APP 13.06.90 -   90172-3482-011
+<br>
+1990 / 086645  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=65&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM66"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+67) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=66&view_numac=&btw=200362408" class="list-item--title">
+  TUBIZE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.88, APP 20.05.89 -   89229-0974-011
+<br>
+1989 / 115098  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=66&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM67"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+68) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=67&view_numac=&btw=200362408" class="list-item--title">
+  TUBIZE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.87, APP 04.06.88 -   88147-0546-010
+<br>
+1988 / 073640  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=67&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM68"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+69) <font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=68&view_numac=&btw=200362408" class="list-item--title">
+  TUBIZE
+<br>
+200.362.408
+<br>
+ME. - COMPTES ANNUELS 31.12.86, APP 25.04.87 -   87062-2975-011
+<br>
+1987 / 022401  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362408&page=1&la_search=f&caller=list&=68&view_numac=&btw=200362408" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+  
+            </div>
+           <button class="button button-full button-to-top button-to-top--left">Haut de la page</button>
+          </div>
+<div class="pagination-container">
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200362408" class="pagination-button pagination-first"></a>
+<span class="pagination-button active">1</span>
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200362408" class="pagination-button pagination-last"></a>
+</div>
+        </main>
+      </div>
+    </div>
+     <!-- Dit is sectie voor footer -->
+    <footer class="page__wrapper page__wrapper--footer no-print">
+      <div class="page__section page__section--footer">
+        <nav class="block-footer" aria-label="Footer">
+          <div>
+            <p class="footer-title">Informations générales</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="/img_2024/pdf/GebruiksvoorwaardenFR.pdf" target="_blank">Conditions d'utilisation</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-title">Liens utiles</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="https://justitie.belgium.be/fr" target="_blank">SPF Justice</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.om-mp.be/fr" target="_blank">Ministère Public</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.rechtbanken-tribunaux.be/fr" target="_blank">Cours & tribunaux</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://justice.belgium.be/fr/ordre_judiciaire/cours_et_tribunaux/cour_de_cassation" target="_blank">Cours de cassation</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="copyright">
+           Copyright &copy; 2024 Service Public Fédéral Belge
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+

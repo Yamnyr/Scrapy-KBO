@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="iso-8859-1" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/img_2024/logos/justitie_favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annexe Personnes morales</title>
+   
+    <script type="module" crossorigin src="/css_2024/article.js"></script>
+  <!--  <script type="module" crossorigin src="/css_2024/list.js"></script> -->
+    <script type="module" crossorigin src="/css_2024/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/css_2024/index.css">
+ <!--   <link rel="stylesheet" crossorigin href="/css_2024/list.css"> -->
+    <link rel="stylesheet" crossorigin href="/css_2024/article.css">
+ <!--  <link rel="stylesheet" crossorigin href="/css_2024/search.css"> -->
+  </head>
+  <body>
+    <div class="page">
+      <!-- Dit is sectie voor top navigatie, taal en andere diensten -->
+      <div class="page__wrapper page__wrapper--tools no-print">
+        <div class="page__section page__section--tools">
+          <nav>
+            <ul>
+              <li class="nav-language-item">
+                <a href="article.pl?language=nl&lg_txt=n&n_entree_search=&pd_search=&btw_search=200068636&caller=art&=&view_numac=200068636" class="nav__language-button ">NL</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="article.pl?language=fr&lg_txt=f&n_entree_search=&pd_search=&btw_search=200068636&caller=art&=&view_numac=200068636" class="nav__language-button active">FR</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="article.pl?language=de&lg_txt=d&n_entree_search=&pd_search=&btw_search=200068636&caller=art&=&view_numac=200068636" class="nav__language-button ">DE</a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <small class="nav__federalheader__link"
+              >Autres informations et services officiels:
+              <a href="https://www.belgium.be/fr">www.belgium.be</a> 
+              </small>
+              <a href="https://www.belgium.be/fr">
+              <img src="/img_2024/logos/logo-be_black.svg"
+              alt="Logo of the Belgian Federal Authorities"
+              class="nav__federalheader__logo"
+            />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dit is sectie voor logo en menu -->
+      <div class="page__wrapper page__wrapper--header no-print">
+        <header class="page__section page__section--header">
+          <div class="justice-logo">
+            <a href="https://justice.belgium.be/fr" title="Return to the Service public Fédéral Justice homepage" rel="home">
+              <img
+                src="/img_2024/logos/fod-fr.svg"
+                class="site-name"
+                alt="Return to the Service public Fédéral Justice homepage"
+                width="168"
+                height="36"
+              />
+            </a>
+          </div>
+          <button
+            id="headerCollapsibleButton"
+            type="button"
+            class="button button--toggler close"
+            aria-controls="headerCollapsible"
+            aria-expanded="false"
+            style="cursor: pointer"
+          >
+            <span class="label">Menu</span>
+            <span class="menu-icon"></span>
+          </button>
+          <div class="region region--header-collapsible" id="headerCollapsible">
+            <nav
+              id="block-header"
+              aria-label="Header"
+              class="block block--menu block--menu--header block--region-header-collapsible"
+            >
+              <div class="block__content">
+                <ul class="menu menu-level-0">
+                  
+                  <li class="menu-item">
+                    <a href="/cgi/welcome.pl?language=fr&view_numac=200068636">Moniteur belge</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_tsv_pub/welcome.pl?language=fr">Annexe Personnes<br> morales</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_loi/welcome.pl?language=fr">Banque de <br>donn&eacute;es Justel</a>
+                  </li>
+                 <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi/faq.pl?language=fr">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+<!-- Dit is sectie voor breadcrumbs -->
+       <div class="page__wrapper page__wrapper--breadcrumb">
+         <div class="page__section page__section--breadcrumb">
+           <div
+             id="block-justice-theme-breadcrumbs"
+             class="block block--system block--system--justice-theme-breadcrumbs block--system--breadcrumb"
+           >
+             <div class="block__content no-print">
+               <nav class="breadcrumb" aria-label="Kruimelpad">
+                 <ol>
+                   <li><a href="https://www.ejustice.just.fgov.be/cgi/welcome.pl?language=fr" title="Home" class="item">Home</a></li>
+                   <li>
+                     <span class="item"><a href="/cgi_tsv_pub/welcome.pl?language=fr" title="Annexe Personnes morales">Annexe Personnes morales</a></span>
+                   </li>
+                   <li><a href="rech.pl?language=fr&view_numac=200068636" title="Recherche" class="item">Recherche</a></li>
+                   <li>
+                     <a href="list.pl?language=fr&page=&view_numac=200068636#SUM" title="Liste" class="item">Liste</a>
+                   </li>
+                   <li>
+                     <span class="item">DETAIL</span>
+                   </li>
+                 </ol>
+               </nav>
+             </div>
+           </div>
+         </div>
+       </div>
+      <!-- Dit is sectie voor content -->
+     <div class="page__wrapper page__wrapper--content">
+       <div class="page__section page__section--content">
+         <main class="page__inner page__inner--content article-text" role="main">
+ <p><font color=blue>TUSSENGEMEENTELIJKE MAATSCHAPPIJ DER VLAANDEREN VOOR WATERVOORZIENING, AFGEKORT : TMVW</font>&nbsp;&nbsp;CV  
+<br>  GENT
+<br>200.068.636
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1983-01-01 / 1769-14  <font color=blue></font>
+<br><hr>
+<br>ME. - BALANS 31.12.1982, GGK 17.06.1983  83086-0570-023
+<br>1983 / 46697  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1984-01-01 / 2372-18  <font color=blue></font>
+<br><hr>
+<br>ME. - BALANS 31.12.1983, GGK 22.06.1984  84109-0150-024
+<br>1984 / 58822  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.84, GGK 21.06.85 -   85245-0979-022
+<br>1985 / 63117  <font color=blue></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>1985-09-10 / 025  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.85, GGK 20.06.86 -   86285-1125-020
+<br>1986 / 066352  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1986-07-24 / 142  <font color=blue></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>1986-12-31 / 044  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.86, GGK 19.06.87 -   87150-3843-029
+<br>1987 / 064368  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.87, GGK 17.06.88 -   88136-4750-027
+<br>1988 / 068609  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1988-08-09 / 022  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.88, GGK 16.06.89 -   89106-2476-022
+<br>1989 / 054050  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1989-07-21 / 872  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.89, GGK 22.06.90 -   90155-4773-024
+<br>1990 / 078532  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1990-07-18 / 104  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.90, GGK 21.06.91 -   91155-4564-022
+<br>1991 / 078591  <font color=blue></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>1991-12-25 / 018  <font color=blue></font>
+<br><hr>
+<br>STROPKAAI  14 9000 GENT
+<br>ME. - JAARREKENING 31.12.91, GGK 19.06.92 -   92185-0064-026
+<br>1992 / 084850  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1992-07-17 / 490  <font color=blue></font>
+<br><hr>
+<br>  GENT
+<br>ME. - JAARREKENING 31.12.92, GGK 18.06.93 -   93190-0889-031
+<br>1993 / 082884  <font color=blue></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN -  ALGEMENE VERGADERING -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>1993-07-13 / 290  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1993-07-21 / 447  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.93, GGK 17.06.94 -   94298-1967-031
+<br>1994 / 128023  <font color=blue></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN -  ALGEMENE VERGADERING -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>1994-07-12 / 368  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1994-07-30 / 285  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.94, GGK 16.06.95 -   95392-0790-030
+<br>1995 / 126978  <font color=blue></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>1995-01-04 / 302  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1995-07-25 / 324  <font color=blue></font>
+<br><hr>
+<br>STROPKAAI  14 9000 GENT
+<br>ME. - JAARREKENING 31.12.95, GGK 21.06.96 -   96265-1065-030
+<br>1996 / 116924  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1996-07-16 / 672  <font color=blue></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>1996-07-16 / 673  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.96, GGK 20.06.97 -   97230-0001-037
+<br>1997 / 094393  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1997-07-10 / 457  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/1997/07/10/1997-07-10_0457.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.97, GGK 19.06.98 -   98295-2476-036
+<br>1998 / 117117  <font color=blue></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>1998-07-10 / 148  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/1998/07/10/1998-07-10_0148.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1998-07-21 / 310  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/1998/07/21/1998-07-21_0310.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br><font color=blue>TUSSENGEMEENTELIJKE MAATSCHAPPIJ DER VLAANDEREN VOOR WATERVOORZIENING, AFGEKORT : TMVW</font>&nbsp;&nbsp;CVBA
+<br>STROPKAAI.14 9000 GENT
+<br>ME. - JAARREKENING 31.12.1998, GGK 18.06.1999 -   99283-2846-036
+<br>1999-07-16 / 0118588  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>1999-07-17 / 139  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/1999/07/17/1999-07-17_0139.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING  31.12.1999, GGK 16.06.2000  00382-0148-036
+<br>2000-07-25 / 0149184  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2000-07-25 / 100  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2000/07/25/2000-07-25_0100.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN -  ALGEMENE VERGADERING -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2001-01-10 / 443  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2001/01/10/2001-01-10_0443.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING  31.12.2000, GGK 22.06.2001  01364-0077-036
+<br>2001-07-19 / 0135405  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2001-08-07 / 334  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2001/08/07/2001-08-07_0334.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2001-08-08 / 513  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2001/08/08/2001-08-08_0513.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DOEL 
+<br>2002-02-21 / 596  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2002/02/21/2002-02-21_0596.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2002-03-05 / 064  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2002/03/05/2002-03-05_0064.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING  31.12.2001, GGK 21.06.2002  02343-0288-037
+<br>2002-07-13 / 0128366  <font color=blue></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN 
+<br>2002-07-17 / 465  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2002/07/17/2002-07-17_0465.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2002-07-23 / 545  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2002/07/23/2002-07-23_0545.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2002-10-15 / 0127120  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2002/10/15/02127120.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN -  DOEL -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2002-10-18 / 0128805  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2002/10/18/02128805.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN 
+<br>2003-07-08 / 0078486  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2003/07/08/03078486.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING  31.12.2002, GGK 20.06.2003  03506-0100-036
+<br>2003-08-07 / 0188225  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2003-12-30 / 0144988  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2003/12/30/03144988.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>STROPKAAI 14 9000 GENT
+<br>ME. - JAARREKENING 31.12.2003, GGK 18.06.2004, NGL 15.07.2004  04446-0224-038
+<br>2004-07-20 / 0168599  <font color=blue></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2004-10-25 / 0149831  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2004/10/25/04149831.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DIVERSEN -  RUBRIEK HERSTRUCTURERING (FUSIE, SPLITSING, OVERDRACHT VERMOGEN, ENZ...) 
+<br>2004-11-23 / 0161186  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2004/11/23/04161186.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2004-11-23 / 0161187  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2004/11/23/04161187.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>RUBRIEK HERSTRUCTURERING (FUSIE, SPLITSING, OVERDRACHT VERMOGEN, ENZ...) -  ONTSLAGEN - BENOEMINGEN 
+<br>2005-02-02 / 0020961  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2005/02/02/05020961.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2005-07-04 / 0094983  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2005/07/04/05094983.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2004, GGK 17.06.2005, NGL 27.07.2005  05555-0089-039
+<br>2005-08-04 / 0213818  <font color=blue></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2005-10-27 / 0152074  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2005/10/27/05152074.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2005-12-14 / 0180109  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2005/12/14/05180109.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2006-01-17 / 0015169  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2006/01/17/06015169.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2006-02-20 / 0036848  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2006/02/20/06036848.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ALGEMENE VERGADERING -  KAPITAAL - AANDELEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2006-07-11 / 0112125  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2006/07/11/06112125.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2005, GGK 16.02.2006, NGL 05.07.2006  06396-0197-051
+<br>2006-07-13 / 0154464  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2005, APP 16.06.2006, DPT 05.07.2006  06396-0198-049
+<br>2006-07-13 / 0154504  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2006-07-24 / 0119970  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2006/07/24/06119970.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2006, GGK 22.06.2007, NGL 18.07.2007  07415-0092-070
+<br>2007-07-27 / 0169305  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2006, APP 22.06.2007, DPT 18.07.2007  07415-0095-070
+<br>2007-07-27 / 0169306  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2006, GGK 22.06.2007, NGL 18.07.2007  07415-0093-127
+<br>2007-07-27 / 0172752  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2006, APP 22.06.2007, DPT 18.07.2007  07415-0094-127
+<br>2007-07-27 / 0172753  <font color=blue></font>
+<br><hr>
+<br>BOEKJAAR -  ONTSLAGEN - BENOEMINGEN 
+<br>2007-11-26 / 0169236  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2007/11/26/07169236.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2008-01-30 / 0017273  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2008/01/30/08017273.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2007, GGK 20.06.2008, NGL 03.07.2008  08341-0028-071
+<br>2008-07-09 / 0142633  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2007, APP 20.06.2008, DPT 30.07.2008  08477-0396-072
+<br>2008-08-06 / 0206595  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2007, GGK 20.06.2008, NGL 30.07.2008  08477-0395-128
+<br>2008-08-06 / 0206596  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2007, APP 20.06.2008, DPT 30.07.2008  08477-0394-080
+<br>2008-08-06 / 0206597  <font color=blue></font>
+<br><hr>
+<br><font color=blue>TUSSENGEMEENTELIJKE MAATSCHAPPIJ DER VLAANDEREN VOOR WATERVOORZIENING, AFGEKORT : TMVW</font>&nbsp;&nbsp;BV CVBA
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2008, GGK 19.06.2009, NGL 10.07.2009  09413-0029-029
+<br>2009-07-20 / 0164998  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2008, APP 19.06.2009, DPT 10.07.2009  09413-0032-030
+<br>2009-07-20 / 0164999  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2008, GGK 19.06.2009, NGL 10.07.2009  09413-0003-074
+<br>2009-07-20 / 0165000  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2008, APP 19.06.2009, DPT 10.07.2009  09413-0024-074
+<br>2009-07-20 / 0165001  <font color=blue></font>
+<br><hr>
+<br>STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2009-07-27 / 0106889  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2009/07/27/09106889.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2009-09-01 / 0124267  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2009/09/01/09124267.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2009, APP 18.06.2010, DPT 06.07.2010  10292-0459-038
+<br>2010-07-16 / 0166425  <font color=blue></font>
+<br><hr>
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2009, GGK 18.06.2010, NGL 06.07.2010  10292-0454-038
+<br>2010-07-16 / 0166426  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2009, APP 18.06.2010, DPT 09.07.2010  10297-0445-050
+<br>2010-07-16 / 0166588  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2009, GGK 18.06.2010, NGL 09.07.2010  10297-0433-050
+<br>2010-07-16 / 0166589  <font color=blue></font>
+<br><hr>
+<br>STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2010-07-20 / 0108274  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2010/07/20/10108274.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2010, GGK 17.06.2011, NGL 21.06.2011  11200-0389-049
+<br>2011-06-29 / 0114167  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2010, APP 17.06.2011, DPT 21.06.2011  11200-0401-049
+<br>2011-06-29 / 0114175  <font color=blue></font>
+<br><hr>
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2010, GGK 17.06.2011, NGL 22.06.2011  11200-0356-037
+<br>2011-06-29 / 0114895  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2010, APP 17.06.2011, DPT 22.06.2011  11200-0364-037
+<br>2011-06-29 / 0114896  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN -  ALGEMENE VERGADERING 
+<br>2011-08-23 / 0129042  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2011/08/23/11129042.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DOEL -  ALGEMENE VERGADERING -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2012-02-15 / 0038388  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2012/02/15/12038388.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2011, APP 15.06.2012, DPT 04.07.2012  12268-0152-036
+<br>2012-07-11 / 0156518  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2011, GGK 15.06.2012, NGL 03.07.2012  12268-0151-050
+<br>2012-07-11 / 0158085  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2011, APP 15.06.2012, DPT 03.07.2012  12268-0155-050
+<br>2012-07-11 / 0158565  <font color=blue></font>
+<br><hr>
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2011, GGK 15.06.2012, NGL 04.07.2012  12268-0150-036
+<br>2012-07-11 / 0158695  <font color=blue></font>
+<br><hr>
+<br>MAATSCHAPPELIJKE ZETEL -  KAPITAAL - AANDELEN -  ONTSLAGEN - BENOEMINGEN 
+<br>2012-07-19 / 0127778  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2012/07/19/12127778.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>STROPSTRAAT 1 9000 GENT
+<br>ALGEMENE VERGADERING -  ONTSLAGEN - BENOEMINGEN 
+<br>2012-11-12 / 0183686  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2012/11/12/12183686.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2013-04-09 / 0055172  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2013/04/09/13055172.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2013-06-12 / 0088698  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2013/06/12/13088698.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2012, GGK 21.06.2013, NGL 04.07.2013  13270-0277-048
+<br>2013-07-09 / 0154538  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2012, APP 21.06.2013, DPT 04.07.2013  13270-0293-048
+<br>2013-07-09 / 0154540  <font color=blue></font>
+<br><hr>
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2012, GGK 21.06.2013, NGL 04.07.2013  13270-0299-036
+<br>2013-07-10 / 0156915  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2012, APP 21.06.2013, DPT 04.07.2013  13270-0305-035
+<br>2013-07-10 / 0156916  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2013-10-18 / 0158701  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2013/10/18/13158701.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2013-12-16 / 0188021  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2013/12/16/13188021.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2013, GGK 20.06.2014, NGL 25.06.2014  14218-0228-055
+<br>2014-07-01 / 0124397  <font color=blue></font>
+<br><hr>
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2013, GGK 20.06.2014, NGL 23.06.2014  14218-0230-041
+<br>2014-07-01 / 0124398  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2013, APP 20.06.2014, DPT 23.06.2014  14218-0232-040
+<br>2014-07-01 / 0124625  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2013, APP 20.06.2014, DPT 25.06.2014  14218-0237-056
+<br>2014-07-01 / 0128797  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2014-10-17 / 0190581  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2014/10/17/14190581.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>RUBRIEK HERSTRUCTURERING (FUSIE, SPLITSING, OVERDRACHT VERMOGEN, ENZ...) 
+<br>2015-05-26 / 0073976  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2015/05/26/15073976.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2014, APP 29.06.2015, DPT 13.07.2015  15305-0205-053
+<br>2015-07-17 / 0173121  <font color=blue></font>
+<br><hr>
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2014, GGK 29.06.2015, NGL 13.07.2015  15305-0209-043
+<br>2015-07-17 / 0173221  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2014, APP 29.06.2015, DPT 13.07.2015  15305-0211-043
+<br>2015-07-17 / 0173222  <font color=blue></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2014, GGK 29.06.2015, NGL 13.07.2015  15305-0196-053
+<br>2015-07-17 / 0173705  <font color=blue></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN -  RUBRIEK HERSTRUCTURERING (FUSIE, SPLITSING, OVERDRACHT VERMOGEN, ENZ...) 
+<br>2015-08-13 / 0117201  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2015/08/13/15117201.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2015-12-22 / 0178056  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2015/12/22/15178056.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - RECTIFICATIF COMPTES ANNUELS 31.12.2014, APP 11.04.2016, DPT 25.04.2016  16107-0585-055
+<br>2016-04-29 / 0062398  <font color=blue></font>
+<br><hr>
+<br>ME. - VERBETERDE JAARREKENING 31.12.2014, GGK 11.04.2016, NGL 25.04.2016  16107-0578-053
+<br>2016-05-03 / 0063013  <font color=blue></font>
+<br><hr>
+<br>ME. - VERBETERDE GECONSOLIDEERDE REKENING 31.12.2014, GGK 11.04.2016, NGL 25.04.2016  16107-0581-043
+<br>2016-05-03 / 0063064  <font color=blue></font>
+<br><hr>
+<br>ME. - RECTIFICATIF COMPTES CONSOLIDES 31.12.2014, APP 11.04.2016, DPT 25.04.2016  16107-0582-043
+<br>2016-05-03 / 0063065  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2016-07-06 / 0093357  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2016/07/06/16093357.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - JAARREKENING 31.12.2015, GGK 24.06.2016, NGL 13.07.2016  16321-0430-054
+<br>2016-07-22 / 0185962  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2015, APP 24.06.2016, DPT 13.07.2016  16321-0445-054
+<br>2016-07-22 / 0185963  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES CONSOLIDES 31.12.2015, APP 24.06.2016, DPT 13.07.2016  16321-0416-042
+<br>2016-07-22 / 0186094  <font color=blue></font>
+<br><hr>
+<br>ME. - GECONSOLIDEERDE REKENING 31.12.2015, GGK 24.06.2016, NGL 13.07.2016  16321-0414-043
+<br>2016-07-22 / 0186097  <font color=blue></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2016-10-11 / 0139926  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2016/10/11/16139926.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2016-11-22 / 0159738  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2016/11/22/16159738.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2016-11-22 / 0159925  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2016/11/22/16159925.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2016-12-30 / 0178907  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2016/12/30/16178907.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2017-06-09 / 0080571  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2017/06/09/17080571.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2017-07-03 / 0094289  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2017/07/03/17094289.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2017-11-07 / 0156197  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2017/11/07/17156197.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) -  WIJZIGING RECHTSVORM 
+<br>2018-04-20 / 0065188  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2018/04/20/18065188.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br><font color=blue>TUSSENGEMEENTELIJKE MAATSCHAPPIJ DER VLAANDEREN VOOR WATERVOORZIENING, AFGEKORT : TMVW</font>&nbsp;&nbsp;OPDRACHTHOUDENDE VER
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2018-05-09 / 0074414  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2018/05/09/18074414.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2018-05-22 / 0079678  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2018/05/22/18079678.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2018-06-19 / 0095196  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2018/06/19/18095196.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2018-11-30 / 0172268  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2018/11/30/18172268.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN 
+<br>2019-03-18 / 0038251  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2019/03/18/19038251.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2019-04-26 / 0058422  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2019/04/26/19058422.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN 
+<br>2019-06-13 / 0078605  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2019/06/13/19078605.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2019-08-06 / 0107011  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2019/08/06/19107011.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2019-12-27 / 0168332  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2019/12/27/19168332.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2020-02-27 / 0032255  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2020/02/27/20032255.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>KAPITAAL - AANDELEN -  ONTSLAGEN - BENOEMINGEN -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2020-04-07 / 0047762  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2020/04/07/20047762.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2020-08-25 / 0097661  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2020/08/25/20097661.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2021-03-08 / 0030324  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2021/03/08/21030324.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2022-07-19 / 0087256  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2022/07/19/22087256.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>BENAMING -  STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2023-04-05 / 0046808  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2023/04/05/23046808.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br><font color=blue>FARYS</font>&nbsp;&nbsp;OPDRACHTHOUDENDE VER
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2023-08-09 / 0103967  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2023/08/09/23103967.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2024-06-10 / 0087630  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2024/06/10/24087630.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>RUBRIEK HERSTRUCTURERING (FUSIE, SPLITSING, OVERDRACHT VERMOGEN, ENZ...) 
+<br>2024-06-13 / 0089939  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2024/06/13/24089939.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>RUBRIEK HERSTRUCTURERING (FUSIE, SPLITSING, OVERDRACHT VERMOGEN, ENZ...) 
+<br>2024-06-13 / 0089941  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2024/06/13/24089941.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …) 
+<br>2024-06-19 / 0092810  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2024/06/19/24092810.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ONTSLAGEN - BENOEMINGEN 
+<br>2025-08-19 / 0105442  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2025/08/19/25105442.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br><font color=blue>FARYS</font>&nbsp;&nbsp;
+<br>     
+<br> 
+<br>2025-09-01 / 0110604  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2025/09/01/25110604.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>          </p>
+    
+   <button class="button button-full button-to-top button-to-top--left">Haut de la page</button>  
+        </main>
+       </div>
+     </div>
+      <!-- Dit is sectie voor footer -->
+    <footer class="page__wrapper page__wrapper--footer no-print">
+      <div class="page__section page__section--footer">
+        <nav class="block-footer" aria-label="Footer">
+          <div>
+            <p class="footer-title">Informations générales</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="/img_2024/pdf/GebruiksvoorwaardenFR.pdf" target="_blank">Conditions d'utilisation</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-title">Liens utiles</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="https://justitie.belgium.be/fr" target="_blank">SPF Justice</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.om-mp.be/fr" target="_blank">Ministère Public</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.rechtbanken-tribunaux.be/fr" target="_blank">Cours & tribunaux</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://justice.belgium.be/fr/ordre_judiciaire/cours_et_tribunaux/cour_de_cassation" target="_blank">Cours de cassation</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="copyright">
+           Copyright &copy; 2024 Service Public Fédéral Belge
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+

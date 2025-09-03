@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="iso-8859-1" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/img_2024/logos/justitie_favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annexe Personnes morales</title>
+   
+    <script type="module" crossorigin src="/css_2024/article.js"></script>
+  <!--  <script type="module" crossorigin src="/css_2024/list.js"></script> -->
+    <script type="module" crossorigin src="/css_2024/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/css_2024/index.css">
+ <!--   <link rel="stylesheet" crossorigin href="/css_2024/list.css"> -->
+    <link rel="stylesheet" crossorigin href="/css_2024/article.css">
+ <!--  <link rel="stylesheet" crossorigin href="/css_2024/search.css"> -->
+  </head>
+  <body>
+    <div class="page">
+      <!-- Dit is sectie voor top navigatie, taal en andere diensten -->
+      <div class="page__wrapper page__wrapper--tools no-print">
+        <div class="page__section page__section--tools">
+          <nav>
+            <ul>
+              <li class="nav-language-item">
+                <a href="list.pl?language=nl&btw=200171970&page=" class="nav__language-button ">NL</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="list.pl?language=fr&btw=200171970&page=" class="nav__language-button active">FR</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="list.pl?language=de&btw=200171970&page=" class="nav__language-button ">DE</a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <small class="nav__federalheader__link"
+              >Autres informations et services officiels:
+              <a href="https://www.belgium.be/fr">www.belgium.be</a> 
+              </small>
+              <a href="https://www.belgium.be/fr">
+              <img src="/img_2024/logos/logo-be_black.svg"
+              alt="Logo of the Belgian Federal Authorities"
+              class="nav__federalheader__logo"
+            />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dit is sectie voor logo en menu -->
+      <div class="page__wrapper page__wrapper--header no-print">
+        <header class="page__section page__section--header">
+          <div class="justice-logo">
+            <a href="https://justice.belgium.be/fr" title="Return to the Service public Fédéral Justice homepage" rel="home">
+              <img
+                src="/img_2024/logos/fod-fr.svg"
+                class="site-name"
+                alt="Return to the Service public Fédéral Justice homepage"
+                width="168"
+                height="36"
+              />
+            </a>
+          </div>
+          <button
+            id="headerCollapsibleButton"
+            type="button"
+            class="button button--toggler close"
+            aria-controls="headerCollapsible"
+            aria-expanded="false"
+            style="cursor: pointer"
+          >
+            <span class="label">Menu</span>
+            <span class="menu-icon"></span>
+          </button>
+          <div class="region region--header-collapsible" id="headerCollapsible">
+            <nav
+              id="block-header"
+              aria-label="Header"
+              class="block block--menu block--menu--header block--region-header-collapsible"
+            >
+              <div class="block__content">
+                <ul class="menu menu-level-0">
+                  
+                  <li class="menu-item">
+                    <a href="/cgi/welcome.pl?language=fr">Moniteur belge</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_tsv_pub/welcome.pl?language=fr">Annexe Personnes<br> morales</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_loi/welcome.pl?language=fr">Banque de <br>donn&eacute;es Justel</a>
+                  </li>
+                 <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi/faq.pl?language=fr">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+<!-- Dit is sectie voor breadcrumbs -->
+       <div class="page__wrapper page__wrapper--breadcrumb">
+         <div class="page__section page__section--breadcrumb">
+           <div
+             id="block-justice-theme-breadcrumbs"
+             class="block block--system block--system--justice-theme-breadcrumbs block--system--breadcrumb"
+           >
+             <div class="block__content no-print">
+               <nav class="breadcrumb" aria-label="Kruimelpad">
+                 <ol>
+                   <li><a href="https://www.ejustice.just.fgov.be/cgi/welcome.pl?language=fr" title="Home" class="item">Home</a></li>
+                   <li>
+                     <span class="item"><a href="/cgi_tsv_pub/welcome.pl?language=fr" title="">Annexe Personnes morales</a></span>
+                   </li>
+                   <li>
+                     <span class="item"><a href="rech.pl?language=fr&btw=200171970" title="Recherche"> Recherche</a></span>
+                   </li>
+                   <li>
+                     <span class="item">Liste (3)</span>
+                   </li>
+                   </li>
+                 </ol>
+               </nav>
+             </div>
+           </div>
+         </div>
+       </div>
+  <!-- Dit is sectie voor content -->
+    <link rel="stylesheet" crossorigin href="/css_2024/standards.css">
+
+    <div class="page__wrapper page__wrapper--content">
+      <div class="page__section page__section--content">
+        <main class="page__inner page__inner--content" role="main">
+        
+          
+          
+<div class="pagination-container">
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200171970" class="pagination-button pagination-first"></a>
+<span class="pagination-button active">1</span>
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200171970" class="pagination-button pagination-last"></a>
+</div>
+          <div class="list-content">
+           <div class="list">
+<A name="SUM0"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+1) <font color=blue>SANATORIUM-HOSPITAAL VAN LEMBERGE</font>&nbsp;&nbsp;
+
+</p>
+<a href="article.pl?language=fr&btw_search=200171970&page=1&la_search=f&caller=list&=0&view_numac=&btw=200171970" class="list-item--title">
+     
+<br>
+200.171.970
+<br>
+KBO NR. 
+<br>
+2024-10-14 / 2024205135  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/mopdf/2024/10/14_1.pdf#Page191" target="_blank">IMAGE</a>
+<br>
+Ambtshalve doorhaling ten gevolge van niet vervullen UBO-verplichtingen ingaande vanaf: 02/10/2024.
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200171970&page=1&la_search=f&caller=list&=0&view_numac=&btw=200171970" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM1"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+2) <font color=blue>SANATORIUM-HOSPITAAL VAN LEMBERGE</font>&nbsp;&nbsp;
+
+</p>
+<a href="article.pl?language=fr&btw_search=200171970&page=1&la_search=f&caller=list&=1&view_numac=&btw=200171970" class="list-item--title">
+     
+<br>
+200.171.970
+<br>
+N° BCE 
+<br>
+2024-10-14 / 2024205135  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/mopdf/2024/10/14_1.pdf#Page191" target="_blank">IMAGE</a>
+<br>
+Date de la prise d'effet de la radiation d'office suite au non-respect des formalités UBO : 02/10/2024.
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200171970&page=1&la_search=f&caller=list&=1&view_numac=&btw=200171970" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM2"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+3) <font color=blue>SANATORIUM-HOSPITAAL VAN LEMBERGE</font>&nbsp;&nbsp;
+
+</p>
+<a href="article.pl?language=fr&btw_search=200171970&page=1&la_search=f&caller=list&=2&view_numac=&btw=200171970" class="list-item--title">
+     
+<br>
+200.171.970
+<br>
+ZDU NR. 
+<br>
+2024-10-14 / 2024205135  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/mopdf/2024/10/14_1.pdf#Page191" target="_blank">IMAGE</a>
+<br>
+Datum des Inkrafttretens der Streichung von Amts wegen wegen Nichterfüllung der UBO-Verpflichtungen: 02/10/2024.
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200171970&page=1&la_search=f&caller=list&=2&view_numac=&btw=200171970" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+  
+            </div>
+           <button class="button button-full button-to-top button-to-top--left">Haut de la page</button>
+          </div>
+<div class="pagination-container">
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200171970" class="pagination-button pagination-first"></a>
+<span class="pagination-button active">1</span>
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200171970" class="pagination-button pagination-last"></a>
+</div>
+        </main>
+      </div>
+    </div>
+     <!-- Dit is sectie voor footer -->
+    <footer class="page__wrapper page__wrapper--footer no-print">
+      <div class="page__section page__section--footer">
+        <nav class="block-footer" aria-label="Footer">
+          <div>
+            <p class="footer-title">Informations générales</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="/img_2024/pdf/GebruiksvoorwaardenFR.pdf" target="_blank">Conditions d'utilisation</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-title">Liens utiles</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="https://justitie.belgium.be/fr" target="_blank">SPF Justice</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.om-mp.be/fr" target="_blank">Ministère Public</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.rechtbanken-tribunaux.be/fr" target="_blank">Cours & tribunaux</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://justice.belgium.be/fr/ordre_judiciaire/cours_et_tribunaux/cour_de_cassation" target="_blank">Cours de cassation</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="copyright">
+           Copyright &copy; 2024 Service Public Fédéral Belge
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+

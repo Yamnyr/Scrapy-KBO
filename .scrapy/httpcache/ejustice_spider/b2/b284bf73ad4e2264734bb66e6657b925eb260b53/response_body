@@ -1,0 +1,2507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="iso-8859-1" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/img_2024/logos/justitie_favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annexe Personnes morales</title>
+   
+    <script type="module" crossorigin src="/css_2024/article.js"></script>
+  <!--  <script type="module" crossorigin src="/css_2024/list.js"></script> -->
+    <script type="module" crossorigin src="/css_2024/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/css_2024/index.css">
+ <!--   <link rel="stylesheet" crossorigin href="/css_2024/list.css"> -->
+    <link rel="stylesheet" crossorigin href="/css_2024/article.css">
+ <!--  <link rel="stylesheet" crossorigin href="/css_2024/search.css"> -->
+  </head>
+  <body>
+    <div class="page">
+      <!-- Dit is sectie voor top navigatie, taal en andere diensten -->
+      <div class="page__wrapper page__wrapper--tools no-print">
+        <div class="page__section page__section--tools">
+          <nav>
+            <ul>
+              <li class="nav-language-item">
+                <a href="list.pl?language=nl&btw=200362210&page=" class="nav__language-button ">NL</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="list.pl?language=fr&btw=200362210&page=" class="nav__language-button active">FR</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="list.pl?language=de&btw=200362210&page=" class="nav__language-button ">DE</a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <small class="nav__federalheader__link"
+              >Autres informations et services officiels:
+              <a href="https://www.belgium.be/fr">www.belgium.be</a> 
+              </small>
+              <a href="https://www.belgium.be/fr">
+              <img src="/img_2024/logos/logo-be_black.svg"
+              alt="Logo of the Belgian Federal Authorities"
+              class="nav__federalheader__logo"
+            />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dit is sectie voor logo en menu -->
+      <div class="page__wrapper page__wrapper--header no-print">
+        <header class="page__section page__section--header">
+          <div class="justice-logo">
+            <a href="https://justice.belgium.be/fr" title="Return to the Service public Fédéral Justice homepage" rel="home">
+              <img
+                src="/img_2024/logos/fod-fr.svg"
+                class="site-name"
+                alt="Return to the Service public Fédéral Justice homepage"
+                width="168"
+                height="36"
+              />
+            </a>
+          </div>
+          <button
+            id="headerCollapsibleButton"
+            type="button"
+            class="button button--toggler close"
+            aria-controls="headerCollapsible"
+            aria-expanded="false"
+            style="cursor: pointer"
+          >
+            <span class="label">Menu</span>
+            <span class="menu-icon"></span>
+          </button>
+          <div class="region region--header-collapsible" id="headerCollapsible">
+            <nav
+              id="block-header"
+              aria-label="Header"
+              class="block block--menu block--menu--header block--region-header-collapsible"
+            >
+              <div class="block__content">
+                <ul class="menu menu-level-0">
+                  
+                  <li class="menu-item">
+                    <a href="/cgi/welcome.pl?language=fr">Moniteur belge</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_tsv_pub/welcome.pl?language=fr">Annexe Personnes<br> morales</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_loi/welcome.pl?language=fr">Banque de <br>donn&eacute;es Justel</a>
+                  </li>
+                 <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi/faq.pl?language=fr">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+<!-- Dit is sectie voor breadcrumbs -->
+       <div class="page__wrapper page__wrapper--breadcrumb">
+         <div class="page__section page__section--breadcrumb">
+           <div
+             id="block-justice-theme-breadcrumbs"
+             class="block block--system block--system--justice-theme-breadcrumbs block--system--breadcrumb"
+           >
+             <div class="block__content no-print">
+               <nav class="breadcrumb" aria-label="Kruimelpad">
+                 <ol>
+                   <li><a href="https://www.ejustice.just.fgov.be/cgi/welcome.pl?language=fr" title="Home" class="item">Home</a></li>
+                   <li>
+                     <span class="item"><a href="/cgi_tsv_pub/welcome.pl?language=fr" title="">Annexe Personnes morales</a></span>
+                   </li>
+                   <li>
+                     <span class="item"><a href="rech.pl?language=fr&btw=200362210" title="Recherche"> Recherche</a></span>
+                   </li>
+                   <li>
+                     <span class="item">Liste (116)</span>
+                   </li>
+                   </li>
+                 </ol>
+               </nav>
+             </div>
+           </div>
+         </div>
+       </div>
+  <!-- Dit is sectie voor content -->
+    <link rel="stylesheet" crossorigin href="/css_2024/standards.css">
+
+    <div class="page__wrapper page__wrapper--content">
+      <div class="page__section page__section--content">
+        <main class="page__inner page__inner--content" role="main">
+        
+          
+          
+<div class="pagination-container">
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200362210" class="pagination-button pagination-first"></a>
+<span class="pagination-button active">1</span>
+<a href="list.pl?language=fr&sum_date=&page=2&btw=200362210" class="pagination-button">2</a>
+<a href="list.pl?language=fr&sum_date=&page=2&btw=200362210" class="pagination-button pagination-next"></a>
+<a href="list.pl?language=fr&sum_date=&page=2&btw=200362210" class="pagination-button pagination-last"></a>
+</div>
+          <div class="list-content">
+           <div class="list">
+<A name="SUM0"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+1) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=0&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2025-07-22 / 0091234  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2025/07/22/25091234.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=0&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM1"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+2) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=1&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2025-04-18 / 0051774  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2025/04/18/25051774.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=1&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM2"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+3) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=2&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2025-01-29 / 0014612  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2025/01/29/25014612.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=2&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM3"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+4) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=3&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2025-01-24 / 0013090  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2025/01/24/25013090.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=3&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM4"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+5) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=4&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2023-07-11 / 0088784  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2023/07/11/23088784.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=4&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM5"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+6) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SC
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=5&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2022-07-11 / 0082847  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2022/07/11/22082847.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=5&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM6"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+7) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=6&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+MODIFICATION FORME JURIDIQUE 
+<br>
+2021-12-30 / 0379968  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2021/12/30/21379968.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=6&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM7"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+8) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=7&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2021-07-07 / 0081106  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2021/07/07/21081106.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=7&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM8"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+9) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=8&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2021-01-19 / 0007233  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2021/01/19/21007233.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=8&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM9"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+10) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=9&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2020-10-21 / 0124178  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2020/10/21/20124178.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=9&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM10"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+11) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=10&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+OBJET -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2020-03-17 / 0041078  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2020/03/17/20041078.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=10&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM11"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+12) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=11&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+CAPITAL, ACTIONS -  DEMISSIONS, NOMINATIONS 
+<br>
+2020-03-13 / 0039825  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2020/03/13/20039825.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=11&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM12"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+13) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=12&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2020-01-28 / 0016306  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2020/01/28/20016306.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=12&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM13"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+14) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=13&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2019-12-13 / 0162264  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2019/12/13/19162264.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=13&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM14"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+15) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=14&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+CAPITAL, ACTIONS 
+<br>
+2019-07-29 / 0328440  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2019/07/29/19328440.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=14&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM15"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+16) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=15&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2019-03-12 / 0035764  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2019/03/12/19035764.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=15&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM16"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+17) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=16&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2019-02-12 / 0022093  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2019/02/12/19022093.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=16&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM17"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+18) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=17&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2019-01-09 / 0004851  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2019/01/09/19004851.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=17&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM18"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+19) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=18&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2018-12-07 / 0175673  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2018/12/07/18175673.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=18&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM19"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+20) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=19&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2018-07-27 / 0117345  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2018/07/27/18117345.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=19&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM20"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+21) <font color=blue>IN BW ASSOCIATION INTERCOMMUNALE, EN ABREGE : IN B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=20&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2018-02-26 / 0037587  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2018/02/26/18037587.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=20&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM21"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+22) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=21&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DENOMINATION -  OBJET -  RUBRIQUE RESTRUCTURATION (FUSION, SCISSION, TRANSFERT PATRIMOINE, ETC...) 
+<br>
+2018-01-25 / 0019304  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2018/01/25/18019304.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=21&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM22"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+23) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=22&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2017-11-07 / 0156349  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2017/11/07/17156349.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=22&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM23"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+24) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=23&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+RUBRIQUE RESTRUCTURATION (FUSION, SCISSION, TRANSFERT PATRIMOINE, ETC...) -  DIVERS 
+<br>
+2017-10-30 / 0153122  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2017/10/30/17153122.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=23&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM24"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+25) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=24&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2017-07-25 / 0107753  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2017/07/25/17107753.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=24&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM25"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+26) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=25&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) -  DIVERS 
+<br>
+2016-07-26 / 0104597  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2016/07/26/16104597.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=25&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM26"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+27) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=26&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2015, APP 22.06.2016, DPT 06.07.2016  16298-0020-059
+<br>
+2016-07-14 / 0168156  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=26&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM27"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+28) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=27&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DIVERS 
+<br>
+2015-07-29 / 0109574  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2015/07/29/15109574.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=27&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM28"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+29) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=28&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2015-07-15 / 0102075  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2015/07/15/15102075.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=28&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM29"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+30) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=29&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2014, APP 23.06.2015, DPT 25.06.2015  15239-0364-063
+<br>
+2015-07-06 / 0138161  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=29&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM30"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+31) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=30&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2015-02-23 / 0029103  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2015/02/23/15029103.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=30&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM31"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+32) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=31&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2014-11-03 / 0201098  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2014/11/03/14201098.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=31&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM32"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+33) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=32&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2014-08-01 / 0148409  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2014/08/01/14148409.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=32&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM33"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+34) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=33&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2013, APP 24.06.2014, DPT 25.06.2014  14248-0244-060
+<br>
+2014-07-07 / 0145111  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=33&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM34"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+35) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=34&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2013-09-27 / 0147336  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2013/09/27/13147336.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=34&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM35"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+36) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=35&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+OBJET -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2013-07-29 / 0118378  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2013/07/29/13118378.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=35&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM36"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+37) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=36&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2012, APP 26.06.2013, DPT 01.07.2013  13254-0579-060
+<br>
+2013-07-05 / 0147212  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=36&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM37"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+38) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=37&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2012-12-21 / 0205432  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2012/12/21/12205432.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=37&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM38"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+39) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=38&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DIVERS 
+<br>
+2012-07-17 / 0126022  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2012/07/17/12126022.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=38&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM39"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+40) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=39&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2011, APP 19.06.2012, DPT 27.06.2012  12250-0264-060
+<br>
+2012-07-06 / 0146012  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=39&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM40"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+41) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=40&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2011-10-21 / 0160130  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2011/10/21/11160130.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=40&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM41"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+42) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=41&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2011-07-06 / 0101772  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2011/07/06/11101772.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=41&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM42"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+43) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=42&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2010, APP 14.06.2011, DPT 17.06.2011  11187-0267-061
+<br>
+2011-06-27 / 0110157  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=42&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM43"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+44) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON, EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=43&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2011-02-02 / 0017877  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2011/02/02/11017877.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=43&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM44"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+45) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=44&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS -  DIVERS 
+<br>
+2010-12-06 / 0177030  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/12/06/10177030.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=44&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM45"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+46) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=45&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2010-11-18 / 0167518  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/11/18/10167518.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=45&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM46"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+47) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=46&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+CAPITAL, ACTIONS 
+<br>
+2010-07-22 / 0109426  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/07/22/10109426.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=46&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM47"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+48) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=47&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2010-07-22 / 0109427  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/07/22/10109427.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=47&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM48"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+49) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=48&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2010-07-22 / 0109428  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/07/22/10109428.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=48&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM49"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+50) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=49&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2009, APP 08.06.2010, DPT 15.06.2010  10196-0354-062
+<br>
+2010-06-25 / 0110902  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=49&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM50"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+51) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=50&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2010-06-17 / 0087771  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/06/17/10087771.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=50&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM51"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+52) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=51&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2010-05-06 / 0065951  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/05/06/10065951.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=51&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM52"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+53) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=52&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2010-01-12 / 0006200  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2010/01/12/10006200.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=52&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM53"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+54) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=53&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2009-07-13 / 0098296  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2009/07/13/09098296.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=53&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM54"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+55) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=54&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2008, APP 15.06.2009, DPT 16.06.2009  09250-0022-057
+<br>
+2009-06-23 / 0100994  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=54&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM55"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+56) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=55&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS -  DIVERS 
+<br>
+2008-12-23 / 0197899  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2008/12/23/08197899.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=55&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM56"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+57) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=56&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2008-06-27 / 0095704  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2008/06/27/08095704.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=56&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM57"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+58) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=57&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2007, APP 05.06.2008, DPT 19.06.2008  08239-0315-058
+<br>
+2008-06-26 / 0104157  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=57&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM58"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+59) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON , EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=58&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2007-12-12 / 0178641  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2007/12/12/07178641.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=58&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM59"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+60) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON , EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=59&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2007-10-29 / 0157748  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2007/10/29/07157748.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=59&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM60"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+61) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON , EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=60&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS -  ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2007-08-13 / 0120289  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2007/08/13/07120289.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=60&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM61"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+62) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON , EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=61&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2006, APP 25.06.2007, DPT 25.07.2007  07455-0396-059
+<br>
+2007-08-01 / 0185572  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=61&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM62"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+63) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON , EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=62&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2007-07-19 / 0106691  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2007/07/19/07106691.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=62&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM63"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+64) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON , EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=63&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2007-01-09 / 0005897  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2007/01/09/07005897.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=63&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM64"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+65) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON , EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=64&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2006-09-29 / 0150339  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2006/09/29/06150339.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=64&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM65"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+66) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON , EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=65&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+OBJET -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) -  ASSEMBLEE GENERALE -  CAPITAL, ACTIONS 
+<br>
+2006-07-05 / 0108144  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2006/07/05/06108144.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=65&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM66"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+67) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON , EN ABREGE : I.B.W.</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=66&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2005, APP 09.06.2006, DPT 28.06.2006  06315-0205-042
+<br>
+2006-07-03 / 0126225  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=66&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM67"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+68) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=67&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2005-09-27 / 0134289  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2005/09/27/05134289.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=67&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM68"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+69) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=68&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2004, APP 13.06.2005, DPT 17.06.2005  05267-0247-044
+<br>
+2005-06-23 / 0106489  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=68&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM69"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+70) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=69&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+2005-05-04 / 0065039  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2005/05/04/05065039.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=69&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM70"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+71) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=70&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2005-03-04 / 0034728  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2005/03/04/05034728.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=70&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM71"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+72) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=71&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.2003, APP 07.06.2004, DPT 25.06.2004  04306-0241-044
+<br>
+2004-07-05 / 0126146  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=71&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM72"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+73) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=72&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2004-01-23 / 0012244  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2004/01/23/04012244.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=72&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM73"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+74) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=73&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS  31.12.2002, APP 23.06.2003  03336-0084-042
+<br>
+2003-07-15 / 0139550  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=73&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM74"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+75) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=74&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2003-01-10 / 0004073  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2003/01/10/03004073.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=74&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM75"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+76) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=75&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS  31.12.2001, APP 17.06.2002  02407-0142-044
+<br>
+2002-07-31 / 0147284  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=75&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM76"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+77) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=76&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2002-07-18 / 287  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2002/07/18/2002-07-18_0287.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=76&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM77"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+78) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=77&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+2001-07-26 / 613  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/2001/07/26/2001-07-26_0613.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=77&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM78"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+79) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=78&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS  31.12.2000, APP 18.06.2001  01390-0035-041
+<br>
+2001-07-24 / 0144907  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=78&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM79"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+80) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=79&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS  31.12.1999, APP 19.06.2000  00393-0200-039
+<br>
+2000-07-28 / 0155203  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=79&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM80"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+81) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=80&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.1998, APP 21.06.1999 -   99349-4753-038
+<br>
+1999-07-30 / 0137708  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=80&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM81"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+82) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=81&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION.10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+1999-07-28 / 019  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/1999/07/28/1999-07-28_0019.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=81&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM82"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+83) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=82&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+1998-07-15 / 742  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/1998/07/15/1998-07-15_0742.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=82&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM83"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+84) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=83&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.97, APP 08.06.98 -   98208-2549-042
+<br>
+1998 / 085895  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=83&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM84"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+85) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=84&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+RUBRIQUE FIN (CESSATION, ANNULATION CESSATION, NULLITE, CONC, REORGANISATION JUDICIAIRE, ETC...) -  RUBRIQUE RESTRUCTURATION (FUSION, SCISSION, TRANSFERT PATRIMOINE, ETC...) -  ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>
+1997-07-29 / 089  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="standard" href="/tsv_pdf/1997/07/29/1997-07-29_0089.pdf" target="_blank">IMAGE</a>
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=84&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM85"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+86) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=85&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.96, APP 23.06.97 -   97208-4743-045
+<br>
+1997 / 086252  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=85&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM86"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+87) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=86&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.95, APP 03.06.96 -   96156-3713-042
+<br>
+1996 / 071499  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=86&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM87"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+88) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=87&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.94, APP 29.05.95 -   95122-2663-037
+<br>
+1995 / 056687  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=87&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM88"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+89) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=88&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+DIVERS 
+<br>
+1994-03-31 / 209  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=88&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM89"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+90) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=89&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.93, APP 30.05.94 -   94128-3105-041
+<br>
+1994 / 059701  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=89&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM90"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+91) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=90&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.92, APP 24.05.93 -   93139-2508-040
+<br>
+1993 / 062485  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=90&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM91"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+92) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=91&view_numac=&btw=200362210" class="list-item--title">
+RUE DE LA RELIGION 10 1400 NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.91, APP 25.05.92 -   92086-0172-030
+<br>
+1992 / 044272  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=91&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM92"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+93) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=92&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.90, APP 27.05.91 -   91079-0828-026
+<br>
+1991 / 042506  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=92&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM93"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+94) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=93&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+DEMISSIONS, NOMINATIONS 
+<br>
+1990-02-28 / 219  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=93&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM94"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+95) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=94&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+DIVERS 
+<br>
+1990-02-08 / 208  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=94&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM95"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+96) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=95&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.89, APP 28.05.90 -   90102-0273-027
+<br>
+1990 / 052355  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=95&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM96"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+97) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=96&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.88, APP 05.06.89 -   89087-5156-025
+<br>
+1989 / 045345  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=96&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM97"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+98) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU...</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=97&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.87, APP 30.05.88 -   88118-3765-026
+<br>
+1988 / 059340  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=97&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM98"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+99) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU...</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=98&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+DIVERS 
+<br>
+1987-12-17 / 258  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=98&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+<A name="SUM99"></a><div class="list-item">
+<div class="list-item--content">
+<p class="list-item--subtitle">
+100) <font color=blue>ASSOCIATION INTERCOMMUNALE POUR L'AMENAGEMENT ET L'EXPANSION ECONOMIQUE DU...</font>&nbsp;&nbsp;SCOO
+
+</p>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=99&view_numac=&btw=200362210" class="list-item--title">
+  NIVELLES
+<br>
+200.362.210
+<br>
+ME. - COMPTES ANNUELS 31.12.86, APP 25.05.87 -   87089-1260-025
+<br>
+1987 / 034984  
+<br>
+
+<br>
+</a>
+</div>
+<a href="article.pl?language=fr&btw_search=200362210&page=1&la_search=f&caller=list&=99&view_numac=&btw=200362210" class="button  button-outlined read-more">
+DETAIL
+</a>
+</div>
+  
+            </div>
+           <button class="button button-full button-to-top button-to-top--left">Haut de la page</button>
+          </div>
+<div class="pagination-container">
+<a href="list.pl?language=fr&sum_date=&page=1&btw=200362210" class="pagination-button pagination-first"></a>
+<span class="pagination-button active">1</span>
+<a href="list.pl?language=fr&sum_date=&page=2&btw=200362210" class="pagination-button">2</a>
+<a href="list.pl?language=fr&sum_date=&page=2&btw=200362210" class="pagination-button pagination-next"></a>
+<a href="list.pl?language=fr&sum_date=&page=2&btw=200362210" class="pagination-button pagination-last"></a>
+</div>
+        </main>
+      </div>
+    </div>
+     <!-- Dit is sectie voor footer -->
+    <footer class="page__wrapper page__wrapper--footer no-print">
+      <div class="page__section page__section--footer">
+        <nav class="block-footer" aria-label="Footer">
+          <div>
+            <p class="footer-title">Informations générales</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="/img_2024/pdf/GebruiksvoorwaardenFR.pdf" target="_blank">Conditions d'utilisation</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-title">Liens utiles</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="https://justitie.belgium.be/fr" target="_blank">SPF Justice</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.om-mp.be/fr" target="_blank">Ministère Public</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.rechtbanken-tribunaux.be/fr" target="_blank">Cours & tribunaux</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://justice.belgium.be/fr/ordre_judiciaire/cours_et_tribunaux/cour_de_cassation" target="_blank">Cours de cassation</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="copyright">
+           Copyright &copy; 2024 Service Public Fédéral Belge
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+

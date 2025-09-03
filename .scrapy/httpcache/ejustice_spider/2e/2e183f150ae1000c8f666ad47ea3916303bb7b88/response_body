@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="iso-8859-1" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/img_2024/logos/justitie_favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annexe Personnes morales</title>
+   
+    <script type="module" crossorigin src="/css_2024/article.js"></script>
+  <!--  <script type="module" crossorigin src="/css_2024/list.js"></script> -->
+    <script type="module" crossorigin src="/css_2024/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/css_2024/index.css">
+ <!--   <link rel="stylesheet" crossorigin href="/css_2024/list.css"> -->
+    <link rel="stylesheet" crossorigin href="/css_2024/article.css">
+ <!--  <link rel="stylesheet" crossorigin href="/css_2024/search.css"> -->
+  </head>
+  <body>
+    <div class="page">
+      <!-- Dit is sectie voor top navigatie, taal en andere diensten -->
+      <div class="page__wrapper page__wrapper--tools no-print">
+        <div class="page__section page__section--tools">
+          <nav>
+            <ul>
+              <li class="nav-language-item">
+                <a href="article.pl?language=nl&lg_txt=n&n_entree_search=&pd_search=&btw_search=200362408&caller=art&=&view_numac=200362408" class="nav__language-button ">NL</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="article.pl?language=fr&lg_txt=f&n_entree_search=&pd_search=&btw_search=200362408&caller=art&=&view_numac=200362408" class="nav__language-button active">FR</a>
+              </li>
+              <li class="nav-language-item">
+                <a href="article.pl?language=de&lg_txt=d&n_entree_search=&pd_search=&btw_search=200362408&caller=art&=&view_numac=200362408" class="nav__language-button ">DE</a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <small class="nav__federalheader__link"
+              >Autres informations et services officiels:
+              <a href="https://www.belgium.be/fr">www.belgium.be</a> 
+              </small>
+              <a href="https://www.belgium.be/fr">
+              <img src="/img_2024/logos/logo-be_black.svg"
+              alt="Logo of the Belgian Federal Authorities"
+              class="nav__federalheader__logo"
+            />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dit is sectie voor logo en menu -->
+      <div class="page__wrapper page__wrapper--header no-print">
+        <header class="page__section page__section--header">
+          <div class="justice-logo">
+            <a href="https://justice.belgium.be/fr" title="Return to the Service public Fédéral Justice homepage" rel="home">
+              <img
+                src="/img_2024/logos/fod-fr.svg"
+                class="site-name"
+                alt="Return to the Service public Fédéral Justice homepage"
+                width="168"
+                height="36"
+              />
+            </a>
+          </div>
+          <button
+            id="headerCollapsibleButton"
+            type="button"
+            class="button button--toggler close"
+            aria-controls="headerCollapsible"
+            aria-expanded="false"
+            style="cursor: pointer"
+          >
+            <span class="label">Menu</span>
+            <span class="menu-icon"></span>
+          </button>
+          <div class="region region--header-collapsible" id="headerCollapsible">
+            <nav
+              id="block-header"
+              aria-label="Header"
+              class="block block--menu block--menu--header block--region-header-collapsible"
+            >
+              <div class="block__content">
+                <ul class="menu menu-level-0">
+                  
+                  <li class="menu-item">
+                    <a href="/cgi/welcome.pl?language=fr&view_numac=200362408">Moniteur belge</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_tsv_pub/welcome.pl?language=fr">Annexe Personnes<br> morales</a>
+                  </li>
+
+                  <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi_loi/welcome.pl?language=fr">Banque de <br>donn&eacute;es Justel</a>
+                  </li>
+                 <li class="menu-item menu-item--collapsed">
+                    <a href="/cgi/faq.pl?language=fr">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+<!-- Dit is sectie voor breadcrumbs -->
+       <div class="page__wrapper page__wrapper--breadcrumb">
+         <div class="page__section page__section--breadcrumb">
+           <div
+             id="block-justice-theme-breadcrumbs"
+             class="block block--system block--system--justice-theme-breadcrumbs block--system--breadcrumb"
+           >
+             <div class="block__content no-print">
+               <nav class="breadcrumb" aria-label="Kruimelpad">
+                 <ol>
+                   <li><a href="https://www.ejustice.just.fgov.be/cgi/welcome.pl?language=fr" title="Home" class="item">Home</a></li>
+                   <li>
+                     <span class="item"><a href="/cgi_tsv_pub/welcome.pl?language=fr" title="Annexe Personnes morales">Annexe Personnes morales</a></span>
+                   </li>
+                   <li><a href="rech.pl?language=fr&view_numac=200362408" title="Recherche" class="item">Recherche</a></li>
+                   <li>
+                     <a href="list.pl?language=fr&page=&view_numac=200362408#SUM" title="Liste" class="item">Liste</a>
+                   </li>
+                   <li>
+                     <span class="item">DETAIL</span>
+                   </li>
+                 </ol>
+               </nav>
+             </div>
+           </div>
+         </div>
+       </div>
+      <!-- Dit is sectie voor content -->
+     <div class="page__wrapper page__wrapper--content">
+       <div class="page__section page__section--content">
+         <main class="page__inner page__inner--content article-text" role="main">
+ <p><font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCOO
+<br>  TUBIZE
+<br>200.362.408
+<br>ME. - COMPTES ANNUELS 31.12.86, APP 25.04.87 -   87062-2975-011
+<br>1987 / 022401  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.87, APP 04.06.88 -   88147-0546-010
+<br>1988 / 073640  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.88, APP 20.05.89 -   89229-0974-011
+<br>1989 / 115098  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.89, APP 13.06.90 -   90172-3482-011
+<br>1990 / 086645  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.90, APP 27.05.91 -   91226-4447-011
+<br>1991 / 112983  <font color=blue></font>
+<br><hr>
+<br>RUE DE GEMBLOUX 2  DOMAINE DE CHASTRE 1450 TUBIZE
+<br>ME. - COMPTES ANNUELS 31.12.91, APP 25.06.92 -   92268-1775-013
+<br>1992 / 119652  <font color=blue></font>
+<br><hr>
+<br>  TUBIZE
+<br>ME. - COMPTES ANNUELS 31.12.92, APP 30.06.93 -   93257-4968-016
+<br>1993 / 107906  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.93, APP 29.06.94 -   94281-1281-013
+<br>1994 / 118676  <font color=blue></font>
+<br><hr>
+<br>  CHASTRE
+<br>ME. - COMPTES ANNUELS 31.12.94, APP 30.06.95 -   95385-2807-015
+<br>1995 / 120990  <font color=blue></font>
+<br><hr>
+<br>ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>1995-07-01 / 610  <font color=blue></font>
+<br><hr>
+<br>ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>1995-07-01 / 611  <font color=blue></font>
+<br><hr>
+<br>ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>1995-07-01 / 612  <font color=blue></font>
+<br><hr>
+<br>SIEGE SOCIAL 
+<br>1995-07-13 / 667  <font color=blue></font>
+<br><hr>
+<br>RUE DE GEMBLOUX 2  DOMAINE DE CHASTRE 1450 CHASTRE
+<br>ME. - COMPTES ANNUELS 31.12.95, APP 26.06.96 -   96321-3932-016
+<br>1996 / 131462  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.96, APP 25.06.97 -   97287-3782-018
+<br>1997 / 111547  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.97, APP 30.06.98 -   98384-0772-016
+<br>1998 / 146471  <font color=blue></font>
+<br><hr>
+<br><font color=blue>INTERCOMMUNALE D'OEUVRES SOCIALES DU BRABANT WALLON</font>&nbsp;&nbsp;SCRL
+<br>RUE DE GEMBLOUX.2 1450 CHASTRE
+<br>ME. - COMPTES ANNUELS 31.12.1998, APP 13.09.1999 -   99542-2402-040
+<br>1999-10-30 / 0210066  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>1999-12-17 / 421  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/1999/12/17/1999-12-17_0421.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>DEMISSIONS, NOMINATIONS 
+<br>2000-02-22 / 474  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2000/02/22/2000-02-22_0474.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS  31.12.1999, APP 30.06.2000  00465-0290-035
+<br>2000-08-09 / 0172312  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>2000-09-16 / 304  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2000/09/16/2000-09-16_0304.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>RUE DE GEMBLOUX.2 1450 CHASTRE
+<br>ME. - COMPTES ANNUELS  31.12.2000, APP 30.06.2001  01395-0185-037
+<br>2001-07-27 / 0147536  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2001-08-31 / 063  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2001/08/31/2001-08-31_0063.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>ASSEMBLEE GENERALE -  CAPITAL, ACTIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>2002-07-24 / 369  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2002/07/24/2002-07-24_0369.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS  31.12.2001, APP 20.06.2002  02407-0144-043
+<br>2002-07-31 / 0147286  <font color=blue></font>
+<br><hr>
+<br><font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SCRL
+<br>DEMISSIONS, NOMINATIONS 
+<br>2003-05-26 / 0058726  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2003/05/26/03058726.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS  31.12.2002, APP 25.06.2003   03612-0248-031
+<br>2003-08-26 / 0218273  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2003, APP 19.11.2004, DPT 26.11.2004   04817-5074-024
+<br>2004-12-03 / 0287170  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2005-05-31 / 0076214  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2005/05/31/05076214.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>RUE DE GEMBLOUX 2 1450 CHASTRE-
+<br>ME. - COMPTES ANNUELS 31.12.2004, APP 29.06.2005, DPT 05.07.2005   05437-0073-025
+<br>2005-07-12 / 0152897  <font color=blue></font>
+<br><hr>
+<br>RUE DE GEMBLOUX 2 1450 CHASTRE
+<br>ME. - COMPTES ANNUELS 31.12.2005, APP 26.06.2006, DPT 14.08.2006   06635-2882-022
+<br>2006-08-18 / 0218782  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2006, APP 25.06.2007, DPT 29.06.2007   07323-0336-034
+<br>2007-07-04 / 0122756  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2007-07-27 / 0112891  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2007/07/27/07112891.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>2008-06-03 / 0080630  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2008/06/03/08080630.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2007, APP 18.06.2008, DPT 02.07.2008   08346-0127-037
+<br>2008-07-07 / 0136002  <font color=blue></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2008, APP 29.06.2009, DPT 08.07.2009   09399-0040-039
+<br>2009-07-15 / 0158381  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2010-05-18 / 0071467  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2010/05/18/10071467.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2009, APP 28.06.2010, DPT 29.06.2010  10251-0509-042
+<br>2010-07-07 / 0143679  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2011-03-02 / 0033783  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2011/03/02/11033783.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2010, APP 22.06.2011, DPT 19.07.2011  11317-0005-039
+<br>2011-07-26 / 0182557  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2011-08-08 / 0122013  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2011/08/08/11122013.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2011-09-26 / 0144885  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2011/09/26/11144885.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2011, APP 20.06.2012, DPT 21.06.2012  12213-0156-041
+<br>2012-06-29 / 0124251  <font color=blue></font>
+<br><hr>
+<br>STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>2013-01-29 / 0016721  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2013/01/29/13016721.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2012, APP 24.06.2013, DPT 23.07.2013  13339-0256-044
+<br>2013-07-26 / 0196855  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2013-08-06 / 0123219  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2013/08/06/13123219.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2013, APP 12.06.2014, DPT 08.07.2014  14286-0326-042
+<br>2014-07-14 / 0165484  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2014-08-01 / 0148410  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2014/08/01/14148410.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2015-02-03 / 0018539  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2015/02/03/15018539.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2014, APP 24.06.2015, DPT 01.07.2015  15273-0151-042
+<br>2015-07-10 / 0159345  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS -  DIVERS 
+<br>2015-07-16 / 0102908  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2015/07/16/15102908.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>2016-01-06 / 0001836  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2016/01/06/16001836.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>ME. - COMPTES ANNUELS 31.12.2015, APP 27.06.2016, DPT 30.06.2016  16266-0210-057
+<br>2016-07-05 / 0144516  <font color=blue></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2017-04-03 / 0047683  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2017/04/03/17047683.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2017-07-18 / 0104172  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2017/07/18/17104172.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2018-01-17 / 0012005  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2018/01/17/18012005.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>2018-07-25 / 0115981  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2018/07/25/18115981.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2019-03-05 / 0032032  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2019/03/05/19032032.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>2019-07-30 / 0103917  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2019/07/30/19103917.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2020-11-24 / 0138548  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2020/11/24/20138548.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2021-02-17 / 0021318  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2021/02/17/21021318.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2021-07-19 / 0086767  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2021/07/19/21086767.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2022-01-27 / 0011694  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2022/01/27/22011694.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2022-07-19 / 0087038  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2022/07/19/22087038.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS -  STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) -  MODIFICATION FORME JURIDIQUE 
+<br>2023-02-13 / 0020839  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2023/02/13/23020839.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br><font color=blue>INTERCOMMUNALE SOCIALE DU BRABANT WALLON, EN ABREGE : I.S.B.W.</font>&nbsp;&nbsp;SC
+<br>RUE DU CERF 200 1332 GENVAL (RIXENSART)
+<br>DEMISSIONS, NOMINATIONS 
+<br>2024-06-19 / 0092654  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2024/06/19/24092654.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>STATUTS (TRADUCTION, COORDINATION, AUTRES MODIFICATIONS, …) 
+<br>2024-12-23 / 0179568  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2024/12/23/24179568.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2025-03-11 / 0034229  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2025/03/11/25034229.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>DEMISSIONS, NOMINATIONS 
+<br>2025-07-22 / 0091070  <font color=blue>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/tsv_pdf/2025/07/22/25091070.pdf" target="_blank">IMAGE</a></font>
+<br><hr>
+<br>          </p>
+    
+   <button class="button button-full button-to-top button-to-top--left">Haut de la page</button>  
+        </main>
+       </div>
+     </div>
+      <!-- Dit is sectie voor footer -->
+    <footer class="page__wrapper page__wrapper--footer no-print">
+      <div class="page__section page__section--footer">
+        <nav class="block-footer" aria-label="Footer">
+          <div>
+            <p class="footer-title">Informations générales</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="/img_2024/pdf/GebruiksvoorwaardenFR.pdf" target="_blank">Conditions d'utilisation</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-title">Liens utiles</p>
+            <ul class="footer-menu">
+              <li class="menu-item">
+                <a href="https://justitie.belgium.be/fr" target="_blank">SPF Justice</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.om-mp.be/fr" target="_blank">Ministère Public</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.rechtbanken-tribunaux.be/fr" target="_blank">Cours & tribunaux</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://justice.belgium.be/fr/ordre_judiciaire/cours_et_tribunaux/cour_de_cassation" target="_blank">Cours de cassation</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="copyright">
+           Copyright &copy; 2024 Service Public Fédéral Belge
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+

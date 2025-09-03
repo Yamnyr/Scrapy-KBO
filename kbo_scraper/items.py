@@ -1,4 +1,4 @@
-# items.py
+# items.py - Version mise à jour
 import scrapy
 
 
@@ -31,11 +31,28 @@ class KboScraperItem(scrapy.Item):
 
     functions = scrapy.Field()
     functions_json = scrapy.Field()
-
     qualities_json = scrapy.Field()
-
     nace_codes = scrapy.Field()
-
     external_links = scrapy.Field()
     entity_links = scrapy.Field()
     financial_data = scrapy.Field()
+
+    # 🆕 Champs pour les publications Moniteur Belge
+    moniteur_publications = scrapy.Field()
+    moniteur_last_updated = scrapy.Field()
+
+
+class MoniteurPublicationItem(scrapy.Item):
+    """Item spécifique pour une publication du Moniteur Belge"""
+    enterprise_number = scrapy.Field()
+    publication_number = scrapy.Field()
+    title = scrapy.Field()
+    code = scrapy.Field()
+    address = scrapy.Field()
+    publication_type = scrapy.Field()
+    publication_date = scrapy.Field()
+    reference = scrapy.Field()
+    image_url = scrapy.Field()
+    detail_url = scrapy.Field()
+    full_content = scrapy.Field()
+    scraping_date = scrapy.Field()
