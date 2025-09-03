@@ -2,6 +2,8 @@ import scrapy
 import pandas as pd
 from kbo_scraper.items import KboScraperItem
 import logging
+import re
+import json
 
 
 class KboSpider(scrapy.Spider):
@@ -16,7 +18,7 @@ class KboSpider(scrapy.Spider):
             'Accept-Encoding': 'gzip, deflate, br',
             'Connection': 'keep-alive',
         },
-        'DOWNLOAD_DELAY': 2,  # Délai entre les requêtes
+        'DOWNLOAD_DELAY': 2,
         'RANDOMIZE_DOWNLOAD_DELAY': 0.5,
     }
 
@@ -24,85 +26,283 @@ class KboSpider(scrapy.Spider):
         # Lecture CSV (fichier test avec 10 lignes)
         df = pd.read_csv("enterprise_test.csv")
 
-        # Tester avec plusieurs entreprises pour vérifier
-        for numero in df["EnterpriseNumber"].head(3):  # Tester les 3 premiers
-            numero_clean = numero.replace(".", "")  # enlever les points
-            url = f"https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer={numero_clean}"
+        for numero in df["EnterpriseNumber"].head(10):
+            numero_clean = numero.replace(".", "")
+            url = f"https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer={numero_clean}"
 
-            # Log pour debug
             self.logger.info(f"Requesting URL: {url}")
 
             yield scrapy.Request(
                 url,
                 callback=self.parse,
                 meta={"numero": numero},
-                dont_filter=True,  # Éviter le filtrage des doublons
-                errback=self.handle_error  # Gérer les erreurs
+                dont_filter=True,
+                errback=self.handle_error
             )
 
     def handle_error(self, failure):
-        """Gestionnaire d'erreurs pour diagnostiquer les problèmes"""
         self.logger.error(f"Request failed: {failure}")
         if hasattr(failure.value, 'response'):
             self.logger.error(f"Response status: {failure.value.response.status}")
 
+    def clean_text(self, text):
+        if text:
+            return re.sub(r'\s+', ' ', text.strip())
+        return None
+
+    def extract_nace_codes(self, response, version):
+        """
+        Extrait les codes NACE-BEL (TVA et ONSS) pour une version donnée (2025, 2008, 2003).
+        """
+        nace_data = []
+        section_rows = response.xpath(
+            f'//h2[contains(text(), "Code Nacebel version {version}")]/ancestor::tr/following-sibling::tr'
+        )
+
+        for row in section_rows:
+            if row.xpath('.//h2'):
+                break
+
+            texts = row.xpath('.//text()').getall()
+            texts = [t.strip() for t in texts if t.strip()]
+            if not texts:
+                continue
+
+            full_text = " ".join(texts)
+
+            match = re.match(r'(TVA|ONSS)\s*' + version + r'\s*([0-9.]+)\s*-\s*(.+)', full_text)
+            if match:
+                nace_type = match.group(1)
+                code = match.group(2)
+                desc_date = match.group(3)
+
+                date_match = re.search(r'Depuis le (.+)$', desc_date)
+                if date_match:
+                    date = date_match.group(1).strip()
+                    description = re.sub(r'\s*Depuis le .+$', '', desc_date).strip()
+                else:
+                    date = "Date not found"
+                    description = desc_date.strip()
+
+                nace_data.append({
+                    "version": version,
+                    "type": nace_type,
+                    "code": code,
+                    "description": description,
+                    "date": date
+                })
+
+        return nace_data
+
+    def extract_qualities_from_page(self, response):
+        qualities_data = []
+        qualities_rows = response.xpath(
+            '//h2[contains(text(), "Qualités")]/ancestor::tr/following-sibling::tr'
+        )
+
+        for row in qualities_rows:
+            if row.xpath('.//h2[contains(text(), "Autorisations")]'):
+                break
+
+            quality_texts = row.xpath('.//text()').getall()
+            if not quality_texts:
+                continue
+
+            quality_text = ' '.join([t.strip() for t in quality_texts if t.strip()])
+            if not quality_text:
+                continue
+
+            date_match = re.search(r'Depuis le (.+?)$', quality_text)
+            if date_match:
+                date = date_match.group(1).strip()
+                quality_name = re.sub(r'\s*Depuis le .+$', '', quality_text).strip()
+            else:
+                date = "Date not found"
+                quality_name = quality_text.strip()
+
+            if quality_name:
+                qualities_data.append({
+                    'name': self.clean_text(quality_name),
+                    'date': self.clean_text(date)
+                })
+
+        return qualities_data
+
+    def extract_functions_from_page(self, response):
+        functions_data = []
+        hidden_functions = response.xpath('//table[@id="toonfctie"]//tr')
+
+        for row in hidden_functions:
+            function_role = row.xpath('.//td[1]//text()').get()
+            function_name = row.xpath('.//td[2]//text()').getall()
+            function_date = row.xpath('.//td[3]//span[@class="upd"]/text()').get()
+
+            if function_role and function_name:
+                name_clean = ' '.join([n.strip() for n in function_name if n.strip()])
+                name_clean = re.sub(r'\s*,\s*', ', ', name_clean)
+                name_clean = re.sub(r'\s+', ' ', name_clean).strip()
+
+                functions_data.append({
+                    'role': self.clean_text(function_role),
+                    'name': name_clean,
+                    'date': self.clean_text(function_date) if function_date else "Date not found"
+                })
+
+        return functions_data
+
+    def extract_financial_data(self, response):
+        """Extrait les données financières (capital, AG, fin d'année comptable)."""
+        financial_data = {}
+
+        capital = response.xpath(
+            '//h2[contains(text(), "Données financières")]/ancestor::tr/following-sibling::tr[td[contains(text(), "Capital")]]/td[2]//text()'
+        ).get()
+        financial_data["capital"] = self.clean_text(capital) if capital else "Not found"
+
+        ag = response.xpath(
+            '//h2[contains(text(), "Données financières")]/ancestor::tr/following-sibling::tr[td[contains(text(), "Assemblée générale")]]/td[2]//text()'
+        ).get()
+        financial_data["general_assembly"] = self.clean_text(ag) if ag else "Not found"
+
+        end_date = response.xpath(
+            '//h2[contains(text(), "Données financières")]/ancestor::tr/following-sibling::tr[td[contains(text(), "Date de fin de l\'année comptable")]]/td[2]//text()'
+        ).get()
+        financial_data["fiscal_year_end"] = self.clean_text(end_date) if end_date else "Not found"
+
+        return financial_data
+
+    def extract_entity_links(self, response):
+        """Extrait les liens entre entités (si présents)."""
+        links_section = response.xpath(
+            '//h2[contains(text(), "Liens entre entités")]/ancestor::tr/following-sibling::tr[1]//text()'
+        ).getall()
+
+        links_section = [t.strip() for t in links_section if t.strip()]
+        if links_section:
+            text = " ".join(links_section)
+            return text
+        return "Not found"
+
+    def extract_external_links(self, response):
+        """Extrait les liens externes (Moniteur, BNB, Notaire, etc.)."""
+        external_links = []
+        links = response.xpath('//h2[contains(text(), "Liens externes")]/ancestor::tr/following-sibling::tr[1]//a')
+
+        for link in links:
+            href = link.xpath('./@href').get()
+            label = link.xpath('.//text()').get()
+            if href and label:
+                external_links.append({
+                    "label": self.clean_text(label),
+                    "url": href
+                })
+
+        return external_links
+
+
     def parse(self, response):
-        # Log pour debug
-        self.logger.info(f"Parsing response for {response.meta['numero']}")
-        self.logger.info(f"Response status: {response.status}")
-
-        # Sauvegarder la page pour inspection (optionnel, pour debug)
-        if response.status == 200:
-            filename = f"debug_{response.meta['numero'].replace('.', '_')}.html"
-            with open(filename, 'wb') as f:
-                f.write(response.body)
-            self.logger.info(f"Saved page to {filename}")
-
+        numero = response.meta['numero']
         item = KboScraperItem()
-        item["enterprise_number"] = response.meta["numero"]
+        item["enterprise_number"] = numero
 
-        # Méthodes alternatives d'extraction du statut
-        status = None
+        # ========= INFORMATIONS =========
+        status = response.xpath('//td[contains(text(), "Statut:")]/following-sibling::td//span/text()').get()
+        item["status"] = self.clean_text(status) if status else "Status not found"
 
-        # Méthode 1 : XPath original
-        status = response.xpath('//div[@id="table"]/table[1]/tbody/tr[3]/td[2]/strong/span/text()').get()
+        juridical_situation = response.xpath(
+            '//td[contains(text(), "Situation juridique:")]/following-sibling::td//span[@class="pageactief"]/text()'
+        ).get()
+        item["juridical_situation"] = self.clean_text(juridical_situation) if juridical_situation else "Not found"
 
-        if not status:
-            # Méthode 2 : Chercher le statut avec un XPath plus large
-            status = response.xpath('//td[contains(text(), "Statut")]/following-sibling::td//text()').get()
+        start_date = response.xpath('//td[contains(text(), "Date de début:")]/following-sibling::td/text()').get()
+        item["start_date"] = self.clean_text(start_date) if start_date else "Not found"
 
-        if not status:
-            # Méthode 3 : Chercher par classe ou autres attributs
-            status = response.xpath('//span[@class="status"]//text()').get()
+        company_name_elements = response.xpath(
+            '//td[contains(text(), "Dénomination:")]/following-sibling::td//text()'
+        ).getall()
+        item["company_name"] = company_name_elements[0].strip() if company_name_elements else "Name not found"
 
-        if not status:
-            # Méthode 4 : Extraction plus générale
-            status_elements = response.xpath('//strong/span/text()').getall()
-            if status_elements:
-                # Prendre le premier élément qui pourrait être un statut
-                status = status_elements[0]
+        abbreviation_elements = response.xpath(
+            '//td[contains(text(), "Abréviation:")]/following-sibling::td//text()'
+        ).getall()
+        item["abbreviation"] = abbreviation_elements[0].strip() if abbreviation_elements else "Not found"
 
-        # Log des résultats
-        self.logger.info(f"Status found: {status}")
-
-        item["status"] = status.strip() if status else "Status not found"
-
-        # Extraction d'autres informations pour vérification
-        # Essayer d'extraire le nom de l'entreprise
-        company_name = response.xpath('//h1//text()').get()
-        if company_name:
-            self.logger.info(f"Company name found: {company_name}")
-
-        # Vérifier si la page contient le numéro d'entreprise
-        if response.meta["numero"] in response.text:
-            self.logger.info("Enterprise number found in page content")
+        address_elements = response.xpath(
+            '//td[contains(text(), "Adresse du siège:")]/following-sibling::td//text()'
+        ).getall()
+        if address_elements:
+            full_address = ' '.join(
+                [elem.strip() for elem in address_elements if elem.strip() and "Depuis le" not in elem])
+            item["headquarters_address"] = self.clean_text(full_address)
         else:
-            self.logger.warning("Enterprise number NOT found in page content")
+            item["headquarters_address"] = "Not found"
 
-        # Extraire tout le texte de la page pour inspection
-        all_text = response.xpath('//text()').getall()
-        if all_text:
-            self.logger.info(f"Page contains {len(all_text)} text elements")
+        phone = response.xpath('//td[contains(text(), "Numéro de téléphone:")]/following-sibling::td/text()').get()
+        item["phone"] = self.clean_text(phone) if phone else "Not found"
+
+        email = response.xpath('//td[contains(text(), "E-mail:")]/following-sibling::td/text()').get()
+        item["email"] = self.clean_text(email) if email else "Not found"
+
+        website = response.xpath('//td[contains(text(), "Adresse web:")]/following-sibling::td/text()').get()
+        item["website"] = self.clean_text(website) if website else "Not found"
+
+        entity_type = response.xpath('//td[contains(text(), "Type d\'entité:")]/following-sibling::td/text()').get()
+        item["entity_type"] = self.clean_text(entity_type) if entity_type else "Not found"
+
+        legal_form_elements = response.xpath(
+            '//td[contains(text(), "Forme légale:")]/following-sibling::td//text()'
+        ).getall()
+        item["legal_form"] = legal_form_elements[0].strip() if legal_form_elements else "Not found"
+
+        establishment_units = response.xpath(
+            '//td[contains(text(), "Nombre d\'unités d\'établissement")]/following-sibling::td/strong/text()'
+        ).get()
+        item["establishment_units"] = self.clean_text(establishment_units) if establishment_units else "Not found"
+
+        # ========= QUALITÉS =========
+        qualities_data = self.extract_qualities_from_page(response)
+        if qualities_data:
+            qualities_formatted = [f"{q['name']} ({q['date']})" for q in qualities_data]
+            item["qualities"] = "; ".join(qualities_formatted)
+            item["qualities_json"] = json.dumps(qualities_data, ensure_ascii=False)
+        else:
+            item["qualities"] = "Not found"
+            item["qualities_json"] = "[]"
+
+        # ========= FONCTIONS =========
+        functions_data = self.extract_functions_from_page(response)
+        if functions_data:
+            functions_formatted = [f"{f['role']}: {f['name']} ({f['date']})" for f in functions_data]
+            item["functions"] = "; ".join(functions_formatted)
+            item["functions_json"] = json.dumps(functions_data, ensure_ascii=False)
+        else:
+            item["functions"] = "Not found"
+            item["functions_json"] = "[]"
+
+        # ========= NACE =========
+        nace_all = []
+        nace_all.extend(self.extract_nace_codes(response, "2025"))
+        nace_all.extend(self.extract_nace_codes(response, "2008"))
+        nace_all.extend(self.extract_nace_codes(response, "2003"))
+
+        if nace_all:
+            item["nace_codes"] = json.dumps(nace_all, ensure_ascii=False)
+        else:
+            item["nace_codes"] = "[]"
+
+        # ========= DONNÉES FINANCIÈRES =========
+        financial_data = self.extract_financial_data(response)
+        item["financial_data"] = json.dumps(financial_data, ensure_ascii=False)
+
+        # ========= LIENS ENTRE ENTITÉS =========
+        entity_links = self.extract_entity_links(response)
+        item["entity_links"] = entity_links
+
+        # ========= LIENS EXTERNES =========
+        external_links = self.extract_external_links(response)
+        if external_links:
+            item["external_links"] = json.dumps(external_links, ensure_ascii=False)
+        else:
+            item["external_links"] = "[]"
 
         yield item
-
