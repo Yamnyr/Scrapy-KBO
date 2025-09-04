@@ -5,8 +5,8 @@ from urllib.parse import urljoin
 import pymongo
 import logging
 
-DATE_NUM_RE = re.compile(r'(\d{4}-\d{2}-\d{2})\s*/\s*(\d+)')
-ADDRESS_HINT = re.compile(r'\b\d{4}\b')  # code postal belge
+# DATE_NUM_RE = re.compile(r'(\d{4}-\d{2}-\d{2})\s*/\s*(\d+)')
+# ADDRESS_HINT = re.compile(r'\b\d{4}\b')  # code postal belge
 
 
 class EjusticeSpider(scrapy.Spider):
@@ -48,38 +48,43 @@ class EjusticeSpider(scrapy.Spider):
 
     def parse_list(self, response):
         enterprise_number = response.meta["enterprise_number"]
-        items = response.xpath('//div[@class="list-item"]')
-        publications = []
 
+        items = response.xpath('//div[@class="list-item"]')
+        if not items:
+            self.logger.info(f"Aucune publication sur cette page pour {enterprise_number}")
+            return  # STOP : ne pas suivre la pagination si page vide
+
+        # --- Récupérer publications existantes dans MongoDB ---
+        existing = self.db.entreprises.find_one(
+            {"enterprise_number": enterprise_number},
+            {"moniteur_publications": 1}
+        )
+        existing_pubs = existing.get("moniteur_publications", []) if existing else []
+
+        publications = []
         for item in items:
             content = item.xpath('.//div[@class="list-item--content"]')
 
-            # 1) Numéro de publication (position dans la liste)
             subtitle_text = content.xpath('.//p[contains(@class,"list-item--subtitle")]//text()').getall()
             subtitle_text = [t.strip() for t in subtitle_text if t.strip()]
-            publication_code = subtitle_text[-1] if subtitle_text else None  # CV, SPRL, ...
+            publication_code = subtitle_text[-1] if subtitle_text else None
 
-            # 2) Titre de la publication
-            title_block = content.xpath('.//a[contains(@class,"list-item--title")]').get()
             title_lines = content.xpath('.//a[contains(@class,"list-item--title")]//text()').getall()
             title_lines = [line.strip() for line in title_lines if line.strip()]
 
             address = title_lines[0] if len(title_lines) > 0 else None
-            enterprise_num = title_lines[1] if len(title_lines) > 1 else None
             type_pub = title_lines[2] if len(title_lines) > 2 else None
 
             date_ref_match = re.search(r'(\d{4}-\d{2}-\d{2})\s*/\s*(\d+)', ' '.join(title_lines))
             publication_date, publication_ref = (date_ref_match.groups() if date_ref_match else (None, None))
 
-            # 3) URL de l'image (PDF)
             pdf_href = content.xpath('.//a[@class="standard"]/@href').get()
             pdf_url = urljoin(response.url, pdf_href) if pdf_href else None
 
-            # 4) Lien détail
             detail_link = content.xpath('.//a[contains(@class,"read-more")]/@href').get()
             detail_url = urljoin(response.url, detail_link) if detail_link else None
 
-            publication = {
+            publications.append({
                 "enterprise_number": enterprise_number,
                 "publication_code": publication_code,
                 "address": address,
@@ -88,25 +93,39 @@ class EjusticeSpider(scrapy.Spider):
                 "publication_ref": publication_ref,
                 "pdf_url": pdf_url,
                 "detail_url": detail_url
-            }
-            publications.append(publication)
+            })
 
-        if publications:
-            try:
-                self.db.entreprises.update_one(
-                    {"enterprise_number": enterprise_number},
-                    {"$set": {"moniteur_publications": publications},
-                     "$currentDate": {"moniteur_last_updated": True}},
-                    upsert=True,
-                )
-                self.logger.info(f"MàJ Mongo : {enterprise_number} ({len(publications)} pubs)")
-            except Exception as e:
-                self.logger.error(f"Erreur update Mongo: {e}")
+        # --- Update MongoDB ---
+        all_publications = existing_pubs + publications
+        try:
+            self.db.entreprises.update_one(
+                {"enterprise_number": enterprise_number},
+                {"$set": {"moniteur_publications": all_publications},
+                 "$currentDate": {"moniteur_last_updated": True}},
+                upsert=True,
+            )
+            self.logger.info(f"MàJ Mongo : {enterprise_number} ({len(all_publications)} pubs)")
+        except Exception as e:
+            self.logger.error(f"Erreur update Mongo: {e}")
 
-            yield {
-                "enterprise_number": enterprise_number,
-                "moniteur_publications": json.dumps(publications, ensure_ascii=False),
-            }
+        yield {
+            "enterprise_number": enterprise_number,
+            "moniteur_publications": json.dumps(all_publications, ensure_ascii=False),
+        }
+
+        # --- Pagination : suivre uniquement si publications sur cette page ---
+        next_page = response.xpath(
+            '//div[contains(@class,"pagination-container")]//a[contains(@class,"pagination-next")]/@href'
+        ).get()
+        if next_page:
+            next_url = urljoin(response.url, next_page)
+            self.logger.info(f"Pagination : suivant -> {next_url}")
+            yield scrapy.Request(
+                next_url,
+                callback=self.parse_list,
+                meta={"enterprise_number": enterprise_number},
+                dont_filter=True
+            )
 
     def closed(self, reason):
         if hasattr(self, "mongo_client"):
