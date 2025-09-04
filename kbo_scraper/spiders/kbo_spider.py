@@ -4,6 +4,7 @@ from kbo_scraper.items import KboScraperItem
 import logging
 import re
 import json
+import copy
 
 
 class KboSpider(scrapy.Spider):
@@ -23,10 +24,10 @@ class KboSpider(scrapy.Spider):
     }
 
     def start_requests(self):
-        # Lecture CSV (fichier test avec 10 lignes)
-        df = pd.read_csv("enterprise_test.csv")
+        df = pd.read_csv("enterprise.csv")
+        sample_df = df.sample(n=10, random_state=42)
 
-        for numero in df["EnterpriseNumber"].head(10):
+        for numero in sample_df["EnterpriseNumber"]:
             numero_clean = numero.replace(".", "")
             url = f"https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer={numero_clean}"
 
@@ -50,32 +51,28 @@ class KboSpider(scrapy.Spider):
             return re.sub(r'\s+', ' ', text.strip())
         return None
 
+    # ============================
+    # EXTRACTION FUNCTIONS
+    # ============================
+
     def extract_nace_codes(self, response, version):
-        """
-        Extrait les codes NACE-BEL (TVA et ONSS) pour une version donnée (2025, 2008, 2003).
-        """
         nace_data = []
         section_rows = response.xpath(
             f'//h2[contains(text(), "Code Nacebel version {version}")]/ancestor::tr/following-sibling::tr'
         )
-
         for row in section_rows:
             if row.xpath('.//h2'):
                 break
-
             texts = row.xpath('.//text()').getall()
             texts = [t.strip() for t in texts if t.strip()]
             if not texts:
                 continue
-
             full_text = " ".join(texts)
-
             match = re.match(r'(TVA|ONSS)\s*' + version + r'\s*([0-9.]+)\s*-\s*(.+)', full_text)
             if match:
                 nace_type = match.group(1)
                 code = match.group(2)
                 desc_date = match.group(3)
-
                 date_match = re.search(r'Depuis le (.+)$', desc_date)
                 if date_match:
                     date = date_match.group(1).strip()
@@ -83,7 +80,6 @@ class KboSpider(scrapy.Spider):
                 else:
                     date = "Date not found"
                     description = desc_date.strip()
-
                 nace_data.append({
                     "version": version,
                     "type": nace_type,
@@ -91,7 +87,6 @@ class KboSpider(scrapy.Spider):
                     "description": description,
                     "date": date
                 })
-
         return nace_data
 
     def extract_qualities_from_page(self, response):
@@ -99,19 +94,15 @@ class KboSpider(scrapy.Spider):
         qualities_rows = response.xpath(
             '//h2[contains(text(), "Qualités")]/ancestor::tr/following-sibling::tr'
         )
-
         for row in qualities_rows:
             if row.xpath('.//h2[contains(text(), "Autorisations")]'):
                 break
-
             quality_texts = row.xpath('.//text()').getall()
             if not quality_texts:
                 continue
-
             quality_text = ' '.join([t.strip() for t in quality_texts if t.strip()])
             if not quality_text:
                 continue
-
             date_match = re.search(r'Depuis le (.+?)$', quality_text)
             if date_match:
                 date = date_match.group(1).strip()
@@ -119,75 +110,57 @@ class KboSpider(scrapy.Spider):
             else:
                 date = "Date not found"
                 quality_name = quality_text.strip()
-
             if quality_name:
                 qualities_data.append({
                     'name': self.clean_text(quality_name),
                     'date': self.clean_text(date)
                 })
-
         return qualities_data
 
     def extract_functions_from_page(self, response):
         functions_data = []
         hidden_functions = response.xpath('//table[@id="toonfctie"]//tr')
-
         for row in hidden_functions:
             function_role = row.xpath('.//td[1]//text()').get()
             function_name = row.xpath('.//td[2]//text()').getall()
             function_date = row.xpath('.//td[3]//span[@class="upd"]/text()').get()
-
             if function_role and function_name:
                 name_clean = ' '.join([n.strip() for n in function_name if n.strip()])
                 name_clean = re.sub(r'\s*,\s*', ', ', name_clean)
                 name_clean = re.sub(r'\s+', ' ', name_clean).strip()
-
                 functions_data.append({
                     'role': self.clean_text(function_role),
                     'name': name_clean,
                     'date': self.clean_text(function_date) if function_date else "Date not found"
                 })
-
         return functions_data
 
     def extract_financial_data(self, response):
-        """Extrait les données financières (capital, AG, fin d'année comptable)."""
         financial_data = {}
-
         capital = response.xpath(
             '//h2[contains(text(), "Données financières")]/ancestor::tr/following-sibling::tr[td[contains(text(), "Capital")]]/td[2]//text()'
         ).get()
         financial_data["capital"] = self.clean_text(capital) if capital else "Not found"
-
         ag = response.xpath(
             '//h2[contains(text(), "Données financières")]/ancestor::tr/following-sibling::tr[td[contains(text(), "Assemblée générale")]]/td[2]//text()'
         ).get()
         financial_data["general_assembly"] = self.clean_text(ag) if ag else "Not found"
-
         end_date = response.xpath(
             '//h2[contains(text(), "Données financières")]/ancestor::tr/following-sibling::tr[td[contains(text(), "Date de fin de l\'année comptable")]]/td[2]//text()'
         ).get()
         financial_data["fiscal_year_end"] = self.clean_text(end_date) if end_date else "Not found"
-
         return financial_data
 
     def extract_entity_links(self, response):
-        """Extrait les liens entre entités (si présents)."""
         links_section = response.xpath(
             '//h2[contains(text(), "Liens entre entités")]/ancestor::tr/following-sibling::tr[1]//text()'
         ).getall()
-
         links_section = [t.strip() for t in links_section if t.strip()]
-        if links_section:
-            text = " ".join(links_section)
-            return text
-        return "Not found"
+        return " ".join(links_section) if links_section else "Not found"
 
     def extract_external_links(self, response):
-        """Extrait les liens externes (Moniteur, BNB, Notaire, etc.)."""
         external_links = []
         links = response.xpath('//h2[contains(text(), "Liens externes")]/ancestor::tr/following-sibling::tr[1]//a')
-
         for link in links:
             href = link.xpath('./@href').get()
             label = link.xpath('.//text()').get()
@@ -196,9 +169,54 @@ class KboSpider(scrapy.Spider):
                     "label": self.clean_text(label),
                     "url": href
                 })
-
         return external_links
 
+    def extract_entrepreneurial_capacities(self, response):
+        capacities_data = []
+        capacity_rows = response.xpath(
+            '//h2[contains(text(), "Capacités entrepreneuriales")]/ancestor::tr/following-sibling::tr'
+        )
+        for row in capacity_rows:
+            if row.xpath('.//h2'):
+                break
+            texts = row.xpath('.//text()').getall()
+            if not texts:
+                continue
+            capacity_text = ' '.join([t.strip() for t in texts if t.strip()])
+            if not capacity_text:
+                continue
+            date_match = re.search(r'Depuis le (.+?)$', capacity_text)
+            if date_match:
+                date = date_match.group(1).strip()
+                capacity_name = re.sub(r'\s*Depuis le .+$', '', capacity_text).strip()
+            else:
+                date = "Date not found"
+                capacity_name = capacity_text.strip()
+            if capacity_name:
+                capacities_data.append({
+                    "name": self.clean_text(capacity_name),
+                    "date": self.clean_text(date)
+                })
+        return capacities_data
+
+    def extract_authorizations(self, response):
+        authorizations = []
+        rows = response.xpath('//h2[contains(text(), "Autorisations")]/ancestor::tr/following-sibling::tr')
+        for row in rows:
+            links = row.xpath('.//a[@class="external"]')
+            for link in links:
+                href = link.xpath('./@href').get()
+                label = link.xpath('normalize-space(string(.))').get()
+                if href:
+                    authorizations.append({
+                        "label": self.clean_text(label),
+                        "url": href
+                    })
+        return authorizations
+
+    # ============================
+    # MAIN PARSE
+    # ============================
 
     def parse(self, response):
         numero = response.meta['numero']
@@ -208,25 +226,20 @@ class KboSpider(scrapy.Spider):
         # ========= INFORMATIONS =========
         status = response.xpath('//td[contains(text(), "Statut:")]/following-sibling::td//span/text()').get()
         item["status"] = self.clean_text(status) if status else "Status not found"
-
         juridical_situation = response.xpath(
             '//td[contains(text(), "Situation juridique:")]/following-sibling::td//span[@class="pageactief"]/text()'
         ).get()
         item["juridical_situation"] = self.clean_text(juridical_situation) if juridical_situation else "Not found"
-
         start_date = response.xpath('//td[contains(text(), "Date de début:")]/following-sibling::td/text()').get()
         item["start_date"] = self.clean_text(start_date) if start_date else "Not found"
-
         company_name_elements = response.xpath(
             '//td[contains(text(), "Dénomination:")]/following-sibling::td//text()'
         ).getall()
         item["company_name"] = company_name_elements[0].strip() if company_name_elements else "Name not found"
-
         abbreviation_elements = response.xpath(
             '//td[contains(text(), "Abréviation:")]/following-sibling::td//text()'
         ).getall()
         item["abbreviation"] = abbreviation_elements[0].strip() if abbreviation_elements else "Not found"
-
         address_elements = response.xpath(
             '//td[contains(text(), "Adresse du siège:")]/following-sibling::td//text()'
         ).getall()
@@ -236,24 +249,18 @@ class KboSpider(scrapy.Spider):
             item["headquarters_address"] = self.clean_text(full_address)
         else:
             item["headquarters_address"] = "Not found"
-
         phone = response.xpath('//td[contains(text(), "Numéro de téléphone:")]/following-sibling::td/text()').get()
         item["phone"] = self.clean_text(phone) if phone else "Not found"
-
         email = response.xpath('//td[contains(text(), "E-mail:")]/following-sibling::td/text()').get()
         item["email"] = self.clean_text(email) if email else "Not found"
-
         website = response.xpath('//td[contains(text(), "Adresse web:")]/following-sibling::td/text()').get()
         item["website"] = self.clean_text(website) if website else "Not found"
-
         entity_type = response.xpath('//td[contains(text(), "Type d\'entité:")]/following-sibling::td/text()').get()
         item["entity_type"] = self.clean_text(entity_type) if entity_type else "Not found"
-
         legal_form_elements = response.xpath(
             '//td[contains(text(), "Forme légale:")]/following-sibling::td//text()'
         ).getall()
         item["legal_form"] = legal_form_elements[0].strip() if legal_form_elements else "Not found"
-
         establishment_units = response.xpath(
             '//td[contains(text(), "Nombre d\'unités d\'établissement")]/following-sibling::td/strong/text()'
         ).get()
@@ -284,25 +291,31 @@ class KboSpider(scrapy.Spider):
         nace_all.extend(self.extract_nace_codes(response, "2025"))
         nace_all.extend(self.extract_nace_codes(response, "2008"))
         nace_all.extend(self.extract_nace_codes(response, "2003"))
-
-        if nace_all:
-            item["nace_codes"] = json.dumps(nace_all, ensure_ascii=False)
-        else:
-            item["nace_codes"] = "[]"
+        item["nace_codes"] = json.dumps(nace_all, ensure_ascii=False) if nace_all else "[]"
 
         # ========= DONNÉES FINANCIÈRES =========
         financial_data = self.extract_financial_data(response)
         item["financial_data"] = json.dumps(financial_data, ensure_ascii=False)
 
         # ========= LIENS ENTRE ENTITÉS =========
-        entity_links = self.extract_entity_links(response)
-        item["entity_links"] = entity_links
+        item["entity_links"] = self.extract_entity_links(response)
 
         # ========= LIENS EXTERNES =========
         external_links = self.extract_external_links(response)
-        if external_links:
-            item["external_links"] = json.dumps(external_links, ensure_ascii=False)
+        item["external_links"] = json.dumps(external_links, ensure_ascii=False) if external_links else "[]"
+
+        # ========= CAPACITÉS ENTREPRENEURIALES =========
+        capacities_data = self.extract_entrepreneurial_capacities(response)
+        if capacities_data:
+            capacities_formatted = [f"{c['name']} ({c['date']})" for c in capacities_data]
+            item["entrepreneurial_capacities"] = "; ".join(capacities_formatted)
+            item["entrepreneurial_capacities_json"] = json.dumps(capacities_data, ensure_ascii=False)
         else:
-            item["external_links"] = "[]"
+            item["entrepreneurial_capacities"] = "Not found"
+            item["entrepreneurial_capacities_json"] = "[]"
+
+        # ========= AUTORISATIONS =========
+        authorizations = self.extract_authorizations(response)
+        item["authorizations"] = json.dumps(authorizations, ensure_ascii=False)
 
         yield item

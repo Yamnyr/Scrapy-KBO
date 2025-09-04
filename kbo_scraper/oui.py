@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Lecture du CSV complet
-df = pd.read_csv("enterprise.csv")
+df = pd.read_csv("../enterprise.csv")
 
 # Prendre seulement les 10 premières lignes
 df_head = df.head(10)

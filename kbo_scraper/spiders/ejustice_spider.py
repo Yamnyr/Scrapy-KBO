@@ -3,10 +3,6 @@ import re
 import json
 from urllib.parse import urljoin
 import pymongo
-import logging
-
-# DATE_NUM_RE = re.compile(r'(\d{4}-\d{2}-\d{2})\s*/\s*(\d+)')
-# ADDRESS_HINT = re.compile(r'\b\d{4}\b')  # code postal belge
 
 
 class EjusticeSpider(scrapy.Spider):
@@ -24,44 +20,51 @@ class EjusticeSpider(scrapy.Spider):
     def __init__(self, limit=10, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.limit = int(limit) if str(limit).isdigit() else 10
-        self.mongo_client = pymongo.MongoClient("mongodb://localhost:27017")
-        self.db = self.mongo_client["kbo_db"]
+        # Lecture Mongo UNIQUEMENT pour récupérer les numéros (pas d'écriture ici)
+        mongo_client = pymongo.MongoClient("mongodb://localhost:27017")
+        db = mongo_client["kbo_db"]
+        entreprises = db.entreprises.find({}, {"enterprise_number": 1})
+        self.enterprise_numbers = [ent["enterprise_number"] for ent in entreprises][: self.limit]
+        mongo_client.close()
 
     def start_requests(self):
-        entreprises = self.db.entreprises.find({}, {"enterprise_number": 1})
-        enterprise_numbers = [ent["enterprise_number"] for ent in entreprises]
-        enterprise_numbers = enterprise_numbers[: self.limit]
-
-        for numero in enterprise_numbers:
+        for numero in self.enterprise_numbers:
             numero_clean = numero.replace(".", "").strip()
             if numero_clean.startswith("0"):
                 numero_clean = numero_clean[1:]
-
             url = f"https://www.ejustice.just.fgov.be/cgi_tsv/list.pl?btw={numero_clean}"
-            self.logger.info(f"Requesting: {url}")
             yield scrapy.Request(
                 url,
                 callback=self.parse_list,
-                meta={"enterprise_number": numero},
+                meta={
+                    "enterprise_number": numero,
+                    # publications_acc est l'accumulateur qui va suivre toutes les pages
+                    "publications_acc": []
+                },
                 dont_filter=True,
             )
 
     def parse_list(self, response):
         enterprise_number = response.meta["enterprise_number"]
+        publications_acc = response.meta.get("publications_acc", [])
+        visited_pages = response.meta.get("visited_pages", set())
 
+        # Numéro de page courante
+        page_match = re.search(r'page=(\d+)', response.url)
+        current_page = int(page_match.group(1)) if page_match else 1
+        visited_pages.add(current_page)
+
+        # Récupération des publications
         items = response.xpath('//div[@class="list-item"]')
         if not items:
-            self.logger.info(f"Aucune publication sur cette page pour {enterprise_number}")
-            return  # STOP : ne pas suivre la pagination si page vide
+            self.logger.info(f"Page vide détectée -> fin pagination pour {enterprise_number}")
+            if publications_acc:
+                yield {
+                    "enterprise_number": enterprise_number,
+                    "moniteur_publications": json.dumps(publications_acc, ensure_ascii=False),
+                }
+            return
 
-        # --- Récupérer publications existantes dans MongoDB ---
-        existing = self.db.entreprises.find_one(
-            {"enterprise_number": enterprise_number},
-            {"moniteur_publications": 1}
-        )
-        existing_pubs = existing.get("moniteur_publications", []) if existing else []
-
-        publications = []
         for item in items:
             content = item.xpath('.//div[@class="list-item--content"]')
 
@@ -84,49 +87,55 @@ class EjusticeSpider(scrapy.Spider):
             detail_link = content.xpath('.//a[contains(@class,"read-more")]/@href').get()
             detail_url = urljoin(response.url, detail_link) if detail_link else None
 
-            publications.append({
+            title = type_pub or ' - '.join(title_lines) or publication_code or address or ""
+            publication_number = publication_ref or publication_code or None
+
+            publications_acc.append({
                 "enterprise_number": enterprise_number,
-                "publication_code": publication_code,
+                "title": title,
+                "publication_number": publication_number,
+                "publication_date": publication_date,
                 "address": address,
                 "type_publication": type_pub,
-                "publication_date": publication_date,
+                "publication_code": publication_code,
                 "publication_ref": publication_ref,
                 "pdf_url": pdf_url,
                 "detail_url": detail_url
             })
 
-        # --- Update MongoDB ---
-        all_publications = existing_pubs + publications
-        try:
-            self.db.entreprises.update_one(
-                {"enterprise_number": enterprise_number},
-                {"$set": {"moniteur_publications": all_publications},
-                 "$currentDate": {"moniteur_last_updated": True}},
-                upsert=True,
-            )
-            self.logger.info(f"MàJ Mongo : {enterprise_number} ({len(all_publications)} pubs)")
-        except Exception as e:
-            self.logger.error(f"Erreur update Mongo: {e}")
-
-        yield {
-            "enterprise_number": enterprise_number,
-            "moniteur_publications": json.dumps(all_publications, ensure_ascii=False),
-        }
-
-        # --- Pagination : suivre uniquement si publications sur cette page ---
+        # Pagination
         next_page = response.xpath(
             '//div[contains(@class,"pagination-container")]//a[contains(@class,"pagination-next")]/@href'
         ).get()
+
         if next_page:
             next_url = urljoin(response.url, next_page)
-            self.logger.info(f"Pagination : suivant -> {next_url}")
-            yield scrapy.Request(
-                next_url,
-                callback=self.parse_list,
-                meta={"enterprise_number": enterprise_number},
-                dont_filter=True
-            )
 
-    def closed(self, reason):
-        if hasattr(self, "mongo_client"):
-            self.mongo_client.close()
+            # Numéro de la prochaine page
+            next_match = re.search(r'page=(\d+)', next_url)
+            next_num = int(next_match.group(1)) if next_match else None
+
+            # ✅ Stop si déjà visité (boucle) ou trop loin
+            if next_num and next_num in visited_pages:
+                self.logger.info(f"Boucle détectée -> fin pagination pour {enterprise_number}")
+            else:
+                yield scrapy.Request(
+                    next_url,
+                    callback=self.parse_list,
+                    meta={
+                        "enterprise_number": enterprise_number,
+                        "publications_acc": publications_acc,
+                        "visited_pages": visited_pages
+                    },
+                    dont_filter=True
+                )
+                return
+
+        # Si pas de next_page OU boucle détectée → yield final
+        if publications_acc:
+            yield {
+                "enterprise_number": enterprise_number,
+                "moniteur_publications": json.dumps(publications_acc, ensure_ascii=False),
+            }
+        else:
+            self.logger.info(f"Aucune publication trouvée pour {enterprise_number} (toutes pages).")

@@ -1,7 +1,9 @@
 import pymongo
 import json
+import re
 from datetime import datetime
 from itemadapter import ItemAdapter
+from scrapy.exceptions import DropItem
 
 
 class MongoPipeline:
@@ -29,7 +31,6 @@ class MongoPipeline:
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
 
-        # Traitement différent selon le type de spider
         if spider.name == "ejustice_spider":
             return self.process_publication_item(adapter, spider)
         else:
@@ -49,7 +50,6 @@ class MongoPipeline:
         enterprise_number = adapter["enterprise_number"]
 
         if "moniteur_publications" in adapter:
-            # Décoder les publications JSON
             try:
                 publications_data = json.loads(adapter["moniteur_publications"])
 
@@ -69,11 +69,18 @@ class MongoPipeline:
                     upsert=True
                 )
 
-                # Sauvegarder aussi dans une collection séparée pour les publications
+                # Sauvegarder aussi dans une collection séparée
                 for pub in publications_data:
+                    pub_number = (
+                        pub.get("publication_number")
+                        or pub.get("publication_ref")
+                        or pub.get("publication_code", "unknown")
+                    )
+                    pub_date = pub.get("publication_date", "nodate")
+
                     pub_doc = {
                         **pub,
-                        "_id": f"{enterprise_number}_{pub.get('publication_number', 'unknown')}_{pub.get('publication_date', 'nodate')}"
+                        "_id": f"{enterprise_number}_{pub_number}_{pub_date}"
                     }
 
                     self.db[self.publications_collection_name].update_one(
@@ -82,7 +89,9 @@ class MongoPipeline:
                         upsert=True
                     )
 
-                spider.logger.info(f"Publications sauvegardées pour {enterprise_number}: {len(publications_data)}")
+                spider.logger.info(
+                    f"Publications sauvegardées pour {enterprise_number}: {len(publications_data)}"
+                )
 
             except json.JSONDecodeError as e:
                 spider.logger.error(f"Erreur décodage JSON publications: {e}")
@@ -105,12 +114,13 @@ class PublicationDeduplicationPipeline:
                 unique_publications = []
 
                 for pub in publications_data:
-                    # Créer une clé unique pour la publication
                     pub_key = (
                         pub.get("enterprise_number", ""),
-                        pub.get("publication_number", ""),
+                        pub.get("publication_number")
+                        or pub.get("publication_ref")
+                        or pub.get("publication_code", ""),
                         pub.get("publication_date", ""),
-                        (pub.get("title") or "")[:50]
+                        (pub.get("title") or pub.get("type_publication") or "")[:50]
                     )
 
                     if pub_key not in self.seen_publications:
@@ -119,7 +129,6 @@ class PublicationDeduplicationPipeline:
                     else:
                         spider.logger.info(f"Publication dupliquée ignorée: {pub_key}")
 
-                # Mettre à jour l'item avec les publications uniques
                 adapter["moniteur_publications"] = json.dumps(unique_publications, ensure_ascii=False)
 
             except json.JSONDecodeError:
@@ -134,45 +143,50 @@ class ValidationPipeline:
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
 
-        # Validation commune
         if not adapter.get("enterprise_number"):
             spider.logger.error("Item rejeté: pas de numéro d'entreprise")
             raise DropItem("Numéro d'entreprise manquant")
 
-        # Validation spécifique aux publications
-        if spider.name == "ejustice_spider":
-            if "moniteur_publications" in adapter:
-                try:
-                    publications = json.loads(adapter["moniteur_publications"])
-                    if not publications:
-                        spider.logger.info("Aucune publication valide trouvée")
-                        raise DropItem("Aucune publication valide")
+        if spider.name == "ejustice_spider" and "moniteur_publications" in adapter:
+            try:
+                publications = json.loads(adapter["moniteur_publications"])
+                if not publications:
+                    spider.logger.info("Aucune publication valide trouvée")
+                    raise DropItem("Aucune publication valide")
 
-                    # Validation de chaque publication
-                    valid_publications = []
-                    for pub in publications:
-                        if self.validate_publication(pub, spider):
-                            valid_publications.append(pub)
+                valid_publications = [
+                    pub for pub in publications if self.validate_publication(pub, spider)
+                ]
 
-                    if not valid_publications:
-                        raise DropItem("Aucune publication valide après validation")
+                if not valid_publications:
+                    raise DropItem("Aucune publication valide après validation")
 
-                    adapter["moniteur_publications"] = json.dumps(valid_publications, ensure_ascii=False)
+                adapter["moniteur_publications"] = json.dumps(valid_publications, ensure_ascii=False)
 
-                except json.JSONDecodeError:
-                    raise DropItem("Données de publication invalides")
+            except json.JSONDecodeError:
+                raise DropItem("Données de publication invalides")
 
         return adapter.item
 
     def validate_publication(self, pub, spider):
-        title = pub.get("title") or ""
-        number = pub.get("publication_number") or ""
+        title = (
+            pub.get("title")
+            or pub.get("type_publication")
+            or pub.get("address")
+            or pub.get("publication_code")
+            or ""
+        )
+        number = (
+            pub.get("publication_number")
+            or pub.get("publication_ref")
+            or pub.get("publication_code")
+            or ""
+        )
 
         if not title and not number:
             spider.logger.warning("Publication rejetée: ni titre ni numéro")
             return False
 
-        # Vérif de la date
         date_str = pub.get("publication_date") or ""
         if date_str and not re.search(r'\d{4}', date_str):
             spider.logger.warning(f"Date suspecte: {date_str}")

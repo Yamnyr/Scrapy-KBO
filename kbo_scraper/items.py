@@ -42,6 +42,11 @@ class KboScraperItem(scrapy.Item):
     moniteur_last_updated = scrapy.Field()
 
 
+    entrepreneurial_capacities = scrapy.Field()
+    entrepreneurial_capacities_json = scrapy.Field()
+
+    authorizations = scrapy.Field()
+    belac_details = scrapy.Field()
 class MoniteurPublicationItem(scrapy.Item):
     """Item spécifique pour une publication du Moniteur Belge"""
     enterprise_number = scrapy.Field()
