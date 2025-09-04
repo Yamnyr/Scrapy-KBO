@@ -1,14 +1,14 @@
-Date: Wed, 03 Sep 2025 22:48:13 GMT
+Date: Thu, 04 Sep 2025 11:49:33 GMT
 Content-Language: fr
 Content-Type: text/html;charset=utf-8
-Set-Cookie: KSESSIONID-KBOPUB=3fb74eb1b5cdc8dc; Path=/
-Set-Cookie: JSESSIONID=7180D080612119C1A8B846B064AF484E.worker4a; Path=/kbopub; HttpOnly
-Set-Cookie: org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=fr; Max-Age=1209600; Expires=Wed, 17-Sep-2025 22:48:14 GMT; Path=/
+Set-Cookie: KSESSIONID-KBOPUB=ea87194812f0db56; Path=/
+Set-Cookie: JSESSIONID=EB0F95FA3AE4552FCDD786DF4B03FC13.worker4a; Path=/kbopub; HttpOnly
+Set-Cookie: org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=fr; Max-Age=1209600; Expires=Thu, 18-Sep-2025 11:49:33 GMT; Path=/
 Set-Cookie: ROUTEID=.12; path=/
-Set-Cookie: MY_SESSION=!nyTN465fOGhWJlia8hS6KKBBhx3SI+ODJ6HLuYwQCqyyjljGFBNqlGWm6QarF0ZBgnj88ktqi4rlIQ==; path=/; Httponly; Secure
-Set-Cookie: TS015ebd60=01fa75d787ba9766102da696e4ff262fd673f0a83c4eb73746f02366564f3e4acb64c6ee41e6d28ac69977a3e75c30ca66c4cacaf9; Path=/;
-Set-Cookie: TS01f63558=01fa75d787ba9766102da696e4ff262fd673f0a83c4eb73746f02366564f3e4acb64c6ee41e6d28ac69977a3e75c30ca66c4cacaf9; path=/kbopub
+Set-Cookie: MY_SESSION=!IBw6vAgM3mJwUmma8hS6KKBBhx3SI/thQ4ociOPUnIps0+8DCQGL7Hc3XIDyeJf2Bgs5B5fms/llBg==; path=/; Httponly; Secure
+Set-Cookie: TS015ebd60=01fa75d787f5c7937ade20d56e481a24f23ef386e81c584a7a4301efbcec6bf56de568ab560ad2e3d7707a162e15d3d6cc3e36b450; Path=/;
+Set-Cookie: TS01f63558=01fa75d787f5c7937ade20d56e481a24f23ef386e81c584a7a4301efbcec6bf56de568ab560ad2e3d7707a162e15d3d6cc3e36b450; path=/kbopub
 Vary: Accept-Encoding,User-Agent
-Xff: p1
+Xff: p4
 Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
 Server: Deathstar :)
