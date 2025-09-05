@@ -86,3 +86,31 @@ Résumé:
 2025-09-05 13:05:14,367 - INFO -    • Mode: sequential
 2025-09-05 13:05:14,380 - INFO -    • Entreprises en base: 10
 2025-09-05 13:05:14,381 - INFO - Rapport sauvegardé: spider_report_20250905_130514.json
+2025-09-05 13:17:50,075 - INFO - Démarrage du runner KBO (limit=10, mode=sequential)
+2025-09-05 13:17:51,534 - INFO - Scrapy version: Scrapy 2.11.1
+2025-09-05 13:17:51,541 - INFO - Connexion MongoDB OK
+2025-09-05 13:17:51,541 - INFO - Mode séquentiel: exécution des spiders un par un
+2025-09-05 13:17:51,541 - INFO - Démarrage de kbo_spider: Spider principal pour extraire les données KBO
+2025-09-05 13:17:59,029 - INFO - kbo_spider terminé avec succès en 7.5s
+2025-09-05 13:17:59,029 - INFO - Pause de 10 secondes avant le prochain spider...
+2025-09-05 13:18:09,030 - INFO - Démarrage de ejustice_spider: Spider pour les publications du Moniteur Belge
+2025-09-05 13:18:16,540 - INFO - ejustice_spider terminé avec succès en 7.5s
+2025-09-05 13:18:16,540 - INFO - Pause de 10 secondes avant le prochain spider...
+2025-09-05 13:18:26,541 - INFO - Démarrage de consult_spider: Spider pour les données financières CBSO
+2025-09-05 13:18:34,055 - INFO - consult_spider terminé avec succès en 7.5s
+2025-09-05 13:18:34,055 - INFO - Temps total d'exécution: 42.5s
+2025-09-05 13:18:34,055 - INFO - 
+============================================================
+2025-09-05 13:18:34,055 - INFO - RAPPORT D'EXÉCUTION
+2025-09-05 13:18:34,055 - INFO - ============================================================
+2025-09-05 13:18:34,055 - INFO - kbo_spider: SUCCESS (7.5s)
+2025-09-05 13:18:34,055 - INFO - ejustice_spider: SUCCESS (7.5s)
+2025-09-05 13:18:34,055 - INFO - consult_spider: SUCCESS (7.5s)
+2025-09-05 13:18:34,055 - INFO - 
+Résumé:
+2025-09-05 13:18:34,055 - INFO -    • Spiders exécutés: 3
+2025-09-05 13:18:34,056 - INFO -    • Succès: 3/3
+2025-09-05 13:18:34,056 - INFO -    • Durée totale: 22.5s
+2025-09-05 13:18:34,056 - INFO -    • Mode: sequential
+2025-09-05 13:18:34,084 - INFO -    • Entreprises en base: 10
+2025-09-05 13:18:34,085 - INFO - Rapport sauvegardé: spider_report_20250905_131834.json

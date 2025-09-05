@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-09-05T13:18:34.084175",
+  "mode": "sequential",
+  "limit": 10,
+  "results": {
+    "kbo_spider": {
+      "spider": "kbo_spider",
+      "status": "SUCCESS",
+      "duration": 7.487503528594971,
+      "error": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    "ejustice_spider": {
+      "spider": "ejustice_spider",
+      "status": "SUCCESS",
+      "duration": 7.5099756717681885,
+      "error": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    "consult_spider": {
+      "spider": "consult_spider",
+      "status": "SUCCESS",
+      "duration": 7.5133655071258545,
+      "error": null,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "summary": {
+    "total_spiders": 3,
+    "successful": 3,
+    "total_duration": 22.510844707489014
+  }
+}

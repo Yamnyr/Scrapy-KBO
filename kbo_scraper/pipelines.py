@@ -8,7 +8,8 @@ from scrapy.exceptions import DropItem
 
 class MongoPipeline:
     collection_name = "entreprises"
-    publications_collection_name = "moniteur_publications"
+    # ❌ Suppression de la collection séparée
+    # publications_collection_name = "moniteur_publications"
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri
@@ -46,48 +47,48 @@ class MongoPipeline:
         return adapter.item
 
     def process_publication_item(self, adapter, spider):
-        """Traite les items de publications du spider ejustice"""
+        """Traite les items de publications du spider ejustice - SANS collection séparée"""
         enterprise_number = adapter["enterprise_number"]
 
         if "moniteur_publications" in adapter:
             try:
                 publications_data = json.loads(adapter["moniteur_publications"])
 
-                # Ajouter la date de scraping
+                # Ajouter la date de scraping à chaque publication
                 for pub in publications_data:
                     pub["scraping_date"] = datetime.now().isoformat()
 
-                # Mettre à jour l'entreprise avec les nouvelles publications
+                # ✅ UNIQUEMENT mettre à jour l'entreprise avec les nouvelles publications
                 self.db[self.collection_name].update_one(
                     {"enterprise_number": enterprise_number},
                     {
-                        "$addToSet": {
-                            "moniteur_publications": {"$each": publications_data}
-                        },
-                        "$set": {"moniteur_last_updated": datetime.now()}
+                        "$set": {
+                            "moniteur_publications": publications_data,  # Remplace les anciennes
+                            "moniteur_last_updated": datetime.now()
+                        }
                     },
                     upsert=True
                 )
 
-                # Sauvegarder aussi dans une collection séparée
-                for pub in publications_data:
-                    pub_number = (
-                        pub.get("publication_number")
-                        or pub.get("publication_ref")
-                        or pub.get("publication_code", "unknown")
-                    )
-                    pub_date = pub.get("publication_date", "nodate")
-
-                    pub_doc = {
-                        **pub,
-                        "_id": f"{enterprise_number}_{pub_number}_{pub_date}"
-                    }
-
-                    self.db[self.publications_collection_name].update_one(
-                        {"_id": pub_doc["_id"]},
-                        {"$set": pub_doc},
-                        upsert=True
-                    )
+                # ❌ SUPPRESSION de la sauvegarde dans une collection séparée
+                # for pub in publications_data:
+                #     pub_number = (
+                #         pub.get("publication_number")
+                #         or pub.get("publication_ref")
+                #         or pub.get("publication_code", "unknown")
+                #     )
+                #     pub_date = pub.get("publication_date", "nodate")
+                #
+                #     pub_doc = {
+                #         **pub,
+                #         "_id": f"{enterprise_number}_{pub_number}_{pub_date}"
+                #     }
+                #
+                #     self.db[self.publications_collection_name].update_one(
+                #         {"_id": pub_doc["_id"]},
+                #         {"$set": pub_doc},
+                #         upsert=True
+                #     )
 
                 spider.logger.info(
                     f"Publications sauvegardées pour {enterprise_number}: {len(publications_data)}"
