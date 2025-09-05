@@ -29,6 +29,15 @@ EJUSTICE_SETTINGS = {
     'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 429],
 }
 
+# Configuration spécifique pour consult.cbso
+CONSULT_SETTINGS = {
+    'CONCURRENT_REQUESTS': 1,
+    'DOWNLOAD_DELAY': 2,
+    'RANDOMIZE_DOWNLOAD_DELAY': True,
+    'RETRY_TIMES': 3,
+    'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 429],
+}
+
 # Logging
 LOG_LEVEL = 'INFO'
 LOG_FILE = 'scrapy.log'
@@ -49,6 +58,7 @@ AUTOTHROTTLE_DEBUG = False
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
     'kbo_scraper.middlewares.RotateUserAgentMiddleware': 400,
+    'scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler': 543,
 }
 
 # Liste d'User-Agents pour la rotation
@@ -59,3 +69,15 @@ USER_AGENT_LIST = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:89.0) Gecko/20100101 Firefox/89.0',
 ]
+# Activer le support de Playwright
+PLAYWRIGHT_BROWSER_TYPE = "chromium"  # ou "firefox" ou "webkit"
+PLAYWRIGHT_LAUNCH_OPTIONS = {
+    "headless": True,  # Défini sur False si vous souhaitez voir le navigateur
+}
+
+TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
+
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}

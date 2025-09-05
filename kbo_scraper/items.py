@@ -47,6 +47,11 @@ class KboScraperItem(scrapy.Item):
 
     authorizations = scrapy.Field()
     belac_details = scrapy.Field()
+
+
+    deposits = scrapy.Field()  # <- nouveau champ
+    url = scrapy.Field()          # <- ajouter ce champ
+    data = scrapy.Field()         # <- ajouter ce champ
 class MoniteurPublicationItem(scrapy.Item):
     """Item spécifique pour une publication du Moniteur Belge"""
     enterprise_number = scrapy.Field()
@@ -61,3 +66,16 @@ class MoniteurPublicationItem(scrapy.Item):
     detail_url = scrapy.Field()
     full_content = scrapy.Field()
     scraping_date = scrapy.Field()
+
+class ConsultItem(scrapy.Item):
+    """Item spécifique pour les données financières de consult.cbso"""
+    enterprise_number = scrapy.Field()
+    balance_sheet = scrapy.Field()
+    income_statement = scrapy.Field()
+    social_balance = scrapy.Field()
+    financial_ratios = scrapy.Field()
+    scraping_date = scrapy.Field()
+    last_update = scrapy.Field()
+    deposits = scrapy.Field()
+    url = scrapy.Field()
+    data = scrapy.Field()

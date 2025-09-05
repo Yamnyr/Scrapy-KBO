@@ -24,7 +24,7 @@ class KboSpider(scrapy.Spider):
     }
 
     def start_requests(self):
-        df = pd.read_csv("enterprise.csv")
+        df = pd.read_csv("enterprise_test.csv")
         sample_df = df.sample(n=10, random_state=42)
 
         for numero in sample_df["EnterpriseNumber"]:

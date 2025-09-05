@@ -1,0 +1,206 @@
+2025-09-05 11:21:25 [scrapy.utils.log] INFO: Scrapy 2.11.1 started (bot: kbo_scraper)
+2025-09-05 11:21:25 [scrapy.utils.log] INFO: Versions: lxml 5.2.1.0, libxml2 2.10.4, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 23.10.0, Python 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 24.0.0 (OpenSSL 3.0.15 3 Sep 2024), cryptography 42.0.5, Platform Windows-11-10.0.26100-SP0
+2025-09-05 11:21:25 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-09-05 11:21:25 [py.warnings] WARNING: C:\Users\Quentin\anaconda3\Lib\site-packages\scrapy\utils\request.py:254: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2025-09-05 11:21:25 [scrapy.extensions.telnet] INFO: Telnet Password: 61976470ba377c2c
+2025-09-05 11:21:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2025-09-05 11:21:25 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_MAX_DELAY': 10,
+ 'AUTOTHROTTLE_START_DELAY': 1,
+ 'AUTOTHROTTLE_TARGET_CONCURRENCY': 2.0,
+ 'BOT_NAME': 'kbo_scraper',
+ 'CLOSESPIDER_ITEMCOUNT': '5',
+ 'DOWNLOAD_DELAY': 2,
+ 'HTTPCACHE_ENABLED': True,
+ 'HTTPCACHE_EXPIRATION_SECS': 3600,
+ 'LOG_FILE': 'scrapy.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'kbo_scraper.spiders',
+ 'RANDOMIZE_DOWNLOAD_DELAY': 0.5,
+ 'SPIDER_MODULES': ['kbo_scraper.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2025-09-05 11:21:25 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-09-05 11:21:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'kbo_scraper.middlewares.RotateUserAgentMiddleware',
+ 'scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware']
+2025-09-05 11:21:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-09-05 11:21:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['kbo_scraper.pipelines.ValidationPipeline',
+ 'kbo_scraper.pipelines.PublicationDeduplicationPipeline',
+ 'kbo_scraper.pipelines.MongoPipeline']
+2025-09-05 11:21:25 [scrapy.core.engine] INFO: Spider opened
+2025-09-05 11:21:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-09-05 11:21:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-09-05 11:21:25 [scrapy-playwright] INFO: Starting download handler
+2025-09-05 11:21:25 [scrapy-playwright] INFO: Starting download handler
+2025-09-05 11:21:25 [scrapy-playwright] INFO: Starting download handler
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0200420608
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0200068636
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0200362210
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0441571714
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0200420410
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0200171970
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0200448421
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0200305493
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0200245711
+2025-09-05 11:21:30 [kbo_spider] INFO: Requesting URL: https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0200362408
+2025-09-05 11:21:39 [scrapy.core.engine] INFO: Closing spider (closespider_itemcount)
+2025-09-05 11:21:49 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4195,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 188197,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 23.23125,
+ 'finish_reason': 'closespider_itemcount',
+ 'finish_time': datetime.datetime(2025, 9, 5, 9, 21, 49, 101782, tzinfo=datetime.timezone.utc),
+ 'httpcache/firsthand': 10,
+ 'httpcache/miss': 10,
+ 'httpcache/store': 10,
+ 'item_scraped_count': 10,
+ 'log_count/INFO': 24,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 10,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2025, 9, 5, 9, 21, 25, 870532, tzinfo=datetime.timezone.utc)}
+2025-09-05 11:21:49 [scrapy.core.engine] INFO: Spider closed (closespider_itemcount)
+2025-09-05 11:21:49 [scrapy-playwright] INFO: Closing download handler
+2025-09-05 11:21:49 [scrapy-playwright] INFO: Closing download handler
+2025-09-05 11:21:55 [scrapy.utils.log] INFO: Scrapy 2.11.1 started (bot: kbo_scraper)
+2025-09-05 11:21:55 [scrapy.utils.log] INFO: Versions: lxml 5.2.1.0, libxml2 2.10.4, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 23.10.0, Python 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 24.0.0 (OpenSSL 3.0.15 3 Sep 2024), cryptography 42.0.5, Platform Windows-11-10.0.26100-SP0
+2025-09-05 11:21:55 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-09-05 11:21:55 [py.warnings] WARNING: C:\Users\Quentin\anaconda3\Lib\site-packages\scrapy\utils\request.py:254: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2025-09-05 11:21:55 [scrapy.extensions.telnet] INFO: Telnet Password: 7c12a3a4c0e4dfaa
+2025-09-05 11:21:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2025-09-05 11:21:56 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_MAX_DELAY': 10,
+ 'AUTOTHROTTLE_START_DELAY': 1,
+ 'AUTOTHROTTLE_TARGET_CONCURRENCY': 2.0,
+ 'BOT_NAME': 'kbo_scraper',
+ 'CLOSESPIDER_ITEMCOUNT': '5',
+ 'CONCURRENT_REQUESTS': 1,
+ 'DOWNLOAD_DELAY': 2.0,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'HTTPCACHE_ENABLED': True,
+ 'HTTPCACHE_EXPIRATION_SECS': 3600,
+ 'LOG_FILE': 'scrapy.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'kbo_scraper.spiders',
+ 'SPIDER_MODULES': ['kbo_scraper.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2025-09-05 11:21:56 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-09-05 11:21:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'kbo_scraper.middlewares.RotateUserAgentMiddleware',
+ 'scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware']
+2025-09-05 11:21:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-09-05 11:21:56 [scrapy.middleware] INFO: Enabled item pipelines:
+['kbo_scraper.pipelines.ValidationPipeline',
+ 'kbo_scraper.pipelines.PublicationDeduplicationPipeline',
+ 'kbo_scraper.pipelines.MongoPipeline']
+2025-09-05 11:21:56 [scrapy.core.engine] INFO: Spider opened
+2025-09-05 11:21:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-09-05 11:21:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-09-05 11:21:56 [scrapy-playwright] INFO: Starting download handler
+2025-09-05 11:21:56 [scrapy-playwright] INFO: Starting download handler
+2025-09-05 11:21:56 [scrapy-playwright] INFO: Starting download handler
+2025-09-05 11:22:01 [ejustice_spider] INFO: Page vide détectée -> fin pagination pour 0200.420.608
+2025-09-05 11:22:08 [ejustice_spider] INFO: Publications sauvegardées pour 0200.068.636: 162
+2025-09-05 11:22:10 [ejustice_spider] INFO: Publication dupliquée ignorée: ('0200.362.210', '0228', '1983-01-01', 'DIVERS')
+2025-09-05 11:22:10 [ejustice_spider] INFO: Publications sauvegardées pour 0200.362.210: 115
+2025-09-05 11:22:15 [ejustice_spider] INFO: Page vide détectée -> fin pagination pour 0200.420.410
+2025-09-05 11:22:21 [ejustice_spider] INFO: Publication dupliquée ignorée: ('0200.171.970', '2024205135', '2024-10-14', '2024-10-14 / 2024205135')
+2025-09-05 11:22:21 [ejustice_spider] INFO: Publication dupliquée ignorée: ('0200.171.970', '2024205135', '2024-10-14', '2024-10-14 / 2024205135')
+2025-09-05 11:22:21 [ejustice_spider] INFO: Publications sauvegardées pour 0200.171.970: 1
+2025-09-05 11:22:24 [ejustice_spider] INFO: Publications sauvegardées pour 0441.571.714: 231
+2025-09-05 11:22:27 [ejustice_spider] INFO: Page vide détectée -> fin pagination pour 0200.448.421
+2025-09-05 11:22:29 [ejustice_spider] INFO: Publications sauvegardées pour 0200.305.493: 68
+2025-09-05 11:22:29 [scrapy.core.engine] INFO: Closing spider (closespider_itemcount)
+2025-09-05 11:22:32 [ejustice_spider] INFO: Publications sauvegardées pour 0200.245.711: 1
+2025-09-05 11:22:32 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5355,
+ 'downloader/request_count': 13,
+ 'downloader/request_method_count/GET': 13,
+ 'downloader/response_bytes': 557353,
+ 'downloader/response_count': 13,
+ 'downloader/response_status_count/200': 13,
+ 'elapsed_time_seconds': 35.853251,
+ 'finish_reason': 'closespider_itemcount',
+ 'finish_time': datetime.datetime(2025, 9, 5, 9, 22, 32, 130821, tzinfo=datetime.timezone.utc),
+ 'httpcache/firsthand': 13,
+ 'httpcache/miss': 13,
+ 'httpcache/store': 13,
+ 'item_scraped_count': 6,
+ 'log_count/INFO': 26,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 2,
+ 'response_received_count': 13,
+ 'scheduler/dequeued': 13,
+ 'scheduler/dequeued/memory': 13,
+ 'scheduler/enqueued': 13,
+ 'scheduler/enqueued/memory': 13,
+ 'start_time': datetime.datetime(2025, 9, 5, 9, 21, 56, 277570, tzinfo=datetime.timezone.utc)}
+2025-09-05 11:22:32 [scrapy.core.engine] INFO: Spider closed (closespider_itemcount)
+2025-09-05 11:22:32 [scrapy-playwright] INFO: Closing download handler
+2025-09-05 11:22:32 [scrapy-playwright] INFO: Closing download handler
