@@ -1,0 +1,88 @@
+2025-09-05 12:43:36,981 - INFO - 
+============================================================
+2025-09-05 12:43:36,982 - INFO - ============================================================
+2025-09-05 12:43:36,983 - INFO -    • Spiders exécutés: 0
+2025-09-05 12:43:36,983 - INFO -    • Succès: 0/0
+2025-09-05 12:43:36,983 - INFO -    • Durée totale: 0.0s
+2025-09-05 12:43:36,983 - INFO -    • Mode: sequential
+2025-09-05 12:43:36,988 - INFO -    • Entreprises en base: 10
+2025-09-05 12:43:58,509 - INFO - 
+============================================================
+2025-09-05 12:43:58,511 - INFO - ============================================================
+2025-09-05 12:43:58,513 - INFO -    • Spiders exécutés: 1
+2025-09-05 12:43:58,513 - INFO -    • Succès: 1/1
+2025-09-05 12:43:58,513 - INFO -    • Durée totale: 7.6s
+2025-09-05 12:43:58,513 - INFO -    • Mode: sequential
+2025-09-05 12:43:58,517 - INFO -    • Entreprises en base: 10
+2025-09-05 12:48:50,863 - INFO - 
+============================================================
+2025-09-05 12:48:50,865 - INFO - ============================================================
+2025-09-05 12:48:50,869 - INFO -    • Spiders exécutés: 3
+2025-09-05 12:48:50,869 - INFO -    • Succès: 3/3
+2025-09-05 12:48:50,869 - INFO -    • Durée totale: 23.1s
+2025-09-05 12:48:50,869 - INFO -    • Mode: sequential
+2025-09-05 12:48:50,905 - INFO -    • Entreprises en base: 10
+2025-09-05 12:59:39,823 - INFO - 
+============================================================
+2025-09-05 12:59:39,824 - INFO - ============================================================
+2025-09-05 12:59:39,828 - INFO -    • Spiders exécutés: 3
+2025-09-05 12:59:39,828 - INFO -    • Succès: 3/3
+2025-09-05 12:59:39,828 - INFO -    • Durée totale: 23.9s
+2025-09-05 12:59:39,829 - INFO -    • Mode: sequential
+2025-09-05 12:59:39,833 - INFO -    • Entreprises en base: 10
+2025-09-05 13:03:18,881 - INFO - Démarrage du runner KBO (limit=10, mode=sequential)
+2025-09-05 13:03:20,429 - INFO - Scrapy version: Scrapy 2.11.1
+2025-09-05 13:03:20,456 - INFO - Connexion MongoDB OK
+2025-09-05 13:03:20,456 - INFO - Mode séquentiel: exécution des spiders un par un
+2025-09-05 13:03:20,457 - INFO - Démarrage de kbo_spider: Spider principal pour extraire les données KBO
+2025-09-05 13:03:28,035 - INFO - kbo_spider terminé avec succès en 7.6s
+2025-09-05 13:03:28,036 - INFO - Pause de 10 secondes avant le prochain spider...
+2025-09-05 13:03:38,036 - INFO - Démarrage de ejustice_spider: Spider pour les publications du Moniteur Belge
+2025-09-05 13:03:46,119 - INFO - ejustice_spider terminé avec succès en 8.1s
+2025-09-05 13:03:46,119 - INFO - Pause de 10 secondes avant le prochain spider...
+2025-09-05 13:03:56,119 - INFO - Démarrage de consult_spider: Spider pour les données financières CBSO
+2025-09-05 13:04:03,871 - INFO - consult_spider terminé avec succès en 7.8s
+2025-09-05 13:04:03,871 - INFO - Temps total d'exécution: 43.4s
+2025-09-05 13:04:03,871 - INFO - 
+============================================================
+2025-09-05 13:04:03,871 - INFO - RAPPORT D'EXÉCUTION
+2025-09-05 13:04:03,871 - INFO - ============================================================
+2025-09-05 13:04:03,871 - INFO - kbo_spider: SUCCESS (7.6s)
+2025-09-05 13:04:03,872 - INFO - ejustice_spider: SUCCESS (8.1s)
+2025-09-05 13:04:03,872 - INFO - consult_spider: SUCCESS (7.8s)
+2025-09-05 13:04:03,872 - INFO - 
+Résumé:
+2025-09-05 13:04:03,872 - INFO -    • Spiders exécutés: 3
+2025-09-05 13:04:03,872 - INFO -    • Succès: 3/3
+2025-09-05 13:04:03,872 - INFO -    • Durée totale: 23.4s
+2025-09-05 13:04:03,872 - INFO -    • Mode: sequential
+2025-09-05 13:04:03,904 - INFO -    • Entreprises en base: 10
+2025-09-05 13:04:03,904 - INFO - Rapport sauvegardé: spider_report_20250905_130403.json
+2025-09-05 13:04:30,016 - INFO - Démarrage du runner KBO (limit=10, mode=sequential)
+2025-09-05 13:04:31,531 - INFO - Scrapy version: Scrapy 2.11.1
+2025-09-05 13:04:31,573 - INFO - Connexion MongoDB OK
+2025-09-05 13:04:31,573 - INFO - Mode séquentiel: exécution des spiders un par un
+2025-09-05 13:04:31,573 - INFO - Démarrage de kbo_spider: Spider principal pour extraire les données KBO
+2025-09-05 13:04:39,057 - INFO - kbo_spider terminé avec succès en 7.5s
+2025-09-05 13:04:39,057 - INFO - Pause de 10 secondes avant le prochain spider...
+2025-09-05 13:04:49,059 - INFO - Démarrage de ejustice_spider: Spider pour les publications du Moniteur Belge
+2025-09-05 13:04:56,980 - INFO - ejustice_spider terminé avec succès en 7.9s
+2025-09-05 13:04:56,981 - INFO - Pause de 10 secondes avant le prochain spider...
+2025-09-05 13:05:06,981 - INFO - Démarrage de consult_spider: Spider pour les données financières CBSO
+2025-09-05 13:05:14,366 - INFO - consult_spider terminé avec succès en 7.4s
+2025-09-05 13:05:14,366 - INFO - Temps total d'exécution: 42.8s
+2025-09-05 13:05:14,366 - INFO - 
+============================================================
+2025-09-05 13:05:14,366 - INFO - RAPPORT D'EXÉCUTION
+2025-09-05 13:05:14,366 - INFO - ============================================================
+2025-09-05 13:05:14,366 - INFO - kbo_spider: SUCCESS (7.5s)
+2025-09-05 13:05:14,366 - INFO - ejustice_spider: SUCCESS (7.9s)
+2025-09-05 13:05:14,366 - INFO - consult_spider: SUCCESS (7.4s)
+2025-09-05 13:05:14,366 - INFO - 
+Résumé:
+2025-09-05 13:05:14,366 - INFO -    • Spiders exécutés: 3
+2025-09-05 13:05:14,366 - INFO -    • Succès: 3/3
+2025-09-05 13:05:14,366 - INFO -    • Durée totale: 22.8s
+2025-09-05 13:05:14,367 - INFO -    • Mode: sequential
+2025-09-05 13:05:14,380 - INFO -    • Entreprises en base: 10
+2025-09-05 13:05:14,381 - INFO - Rapport sauvegardé: spider_report_20250905_130514.json
