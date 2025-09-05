@@ -1,6 +1,5 @@
 # kbo_scraper/spiders/consult_spider.py
 import scrapy
-import pymongo
 from kbo_scraper.items import KboScraperItem
 
 
@@ -12,20 +11,28 @@ class ConsultSpider(scrapy.Spider):
         "LOG_LEVEL": "INFO",
     }
 
-    def __init__(self, limit=10, *args, **kwargs):
+    def __init__(self, enterprise_numbers=None, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.limit = int(limit) if str(limit).isdigit() else 10
 
-        # Connexion MongoDB pour récupérer les numéros d'entreprise
-        mongo_client = pymongo.MongoClient("mongodb://localhost:27017")
-        db = mongo_client["kbo_db"]
-        entreprises = db.entreprises.find({}, {"enterprise_number": 1})
-        self.enterprise_numbers = [
-            ent["enterprise_number"] for ent in entreprises
-        ][: self.limit]
-        mongo_client.close()
+        # Accepter les numéros d'entreprise en paramètre
+        if enterprise_numbers:
+            if isinstance(enterprise_numbers, str):
+                # Si c'est une string, on assume que c'est séparé par des virgules
+                self.enterprise_numbers = [num.strip() for num in enterprise_numbers.split(',')]
+            elif isinstance(enterprise_numbers, list):
+                self.enterprise_numbers = enterprise_numbers
+            else:
+                self.enterprise_numbers = []
+        else:
+            self.enterprise_numbers = []
+
+        self.logger.info(f"Spider initialisé avec {len(self.enterprise_numbers)} numéros d'entreprise")
 
     def start_requests(self):
+        if not self.enterprise_numbers:
+            self.logger.warning("Aucun numéro d'entreprise fourni. Spider arrêté.")
+            return
+
         for numero in self.enterprise_numbers:
             numero_clean = numero.replace(".", "").strip()
             api_url = (

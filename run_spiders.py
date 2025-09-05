@@ -1,338 +1,272 @@
 #!/usr/bin/env python3
 """
-Script pour lancer tous les spiders KBO de manière séquentielle ou parallèle
+Script pour exécuter les spiders en leur fournissant les numéros d'entreprise depuis MongoDB
+Usage:
+  python run_spiders.py --spider kbo_spider --limit 10
+  python run_spiders.py --spider ejustice_spider --limit 5
+  python run_spiders.py --spider consult_spider --limit 20
+  python run_spiders.py --spider all --limit 10
+  python run_spiders.py --spider kbo_spider --diagnose
 """
-
-import os
-import sys
-import time
 import argparse
-import subprocess
-import logging
-from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import pymongo
-
-# Configuration du logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('run_spiders.log'),
-        logging.StreamHandler(sys.stdout)
-    ]
-)
-logger = logging.getLogger(__name__)
+import subprocess
+import sys
+import os
+import time
+from typing import List, Optional
 
 
 class SpiderRunner:
-    """Classe pour gérer l'exécution des spiders"""
+    def __init__(self, mongo_uri: str = "mongodb://localhost:27017", mongo_db: str = "kbo_db"):
+        self.mongo_uri = mongo_uri
+        self.mongo_db = mongo_db
 
-    def __init__(self, limit=10, mode='sequential'):
-        self.limit = limit
-        self.mode = mode
-        self.spiders = [
-            {
-                'name': 'kbo_spider',
-                'description': 'Spider principal pour extraire les données KBO',
-                'priority': 1,
-                'command': ['scrapy', 'crawl', 'kbo_spider']
-            },
-            {
-                'name': 'ejustice_spider',
-                'description': 'Spider pour les publications du Moniteur Belge',
-                'priority': 2,
-                'command': ['scrapy', 'crawl', 'ejustice_spider', '-a', f'limit={limit}']
-            },
-            {
-                'name': 'consult_spider',
-                'description': 'Spider pour les données financières CBSO',
-                'priority': 3,
-                'command': ['scrapy', 'crawl', 'consult_spider', '-a', f'limit={limit}']
-            }
+    def test_mongodb_connection(self) -> bool:
+        """Test la connexion à MongoDB"""
+        try:
+            client = pymongo.MongoClient(self.mongo_uri, serverSelectionTimeoutMS=5000)
+            client.server_info()  # Force une connexion
+            client.close()
+            print("✅ Connexion MongoDB réussie")
+            return True
+        except Exception as e:
+            print(f"❌ Impossible de se connecter à MongoDB: {e}")
+            print(f"🔍 Vérifiez que MongoDB est démarré et accessible sur {self.mongo_uri}")
+            return False
+
+    def diagnose_database(self) -> None:
+        """Diagnostic de la base de données"""
+        try:
+            client = pymongo.MongoClient(self.mongo_uri)
+            db = client[self.mongo_db]
+
+            print(f"\n🔍 Diagnostic de la base '{self.mongo_db}':")
+            print("-" * 40)
+
+            # Lister les collections
+            collections = db.list_collection_names()
+            print(f"Collections trouvées: {collections}")
+
+            if "entreprises" in collections:
+                count = db.entreprises.count_documents({})
+                print(f"📊 Nombre d'entreprises: {count}")
+
+                if count > 0:
+                    # Échantillon de données
+                    sample = db.entreprises.find_one()
+                    if sample:
+                        print(f"🔍 Champs disponibles: {list(sample.keys())}")
+                        if "enterprise_number" in sample:
+                            print(f"📝 Exemple de numéro: {sample['enterprise_number']}")
+                else:
+                    print("⚠️  Collection vide")
+            else:
+                print("❌ Collection 'entreprises' non trouvée")
+
+            client.close()
+            print("-" * 40)
+
+        except Exception as e:
+            print(f"❌ Erreur lors du diagnostic: {e}")
+
+    def get_enterprise_numbers(self, limit: Optional[int] = None) -> List[str]:
+        """Récupère les numéros d'entreprise depuis MongoDB"""
+        try:
+            client = pymongo.MongoClient(self.mongo_uri)
+            db = client[self.mongo_db]
+
+            # Vérifier d'abord si la collection existe et contient des données
+            if "entreprises" not in db.list_collection_names():
+                print("❌ Collection 'entreprises' n'existe pas dans MongoDB")
+                client.close()
+                return []
+
+            # Compter le nombre total de documents
+            total_count = db.entreprises.count_documents({})
+            print(f"📊 {total_count} entreprises trouvées dans la base")
+
+            if total_count == 0:
+                print("❌ Aucune entreprise trouvée dans la collection")
+                client.close()
+                return []
+
+            # Récupérer les numéros d'entreprise
+            query = {"enterprise_number": {"$exists": True, "$ne": None}}
+            projection = {"enterprise_number": 1}
+
+            if limit:
+                cursor = db.entreprises.find(query, projection).limit(limit)
+                print(f"🔍 Récupération de {limit} numéros d'entreprise maximum...")
+            else:
+                cursor = db.entreprises.find(query, projection)
+                print(f"🔍 Récupération de tous les numéros d'entreprise...")
+
+            enterprise_numbers = []
+            for doc in cursor:
+                if "enterprise_number" in doc and doc["enterprise_number"]:
+                    enterprise_numbers.append(doc["enterprise_number"])
+
+            client.close()
+
+            print(f"✅ {len(enterprise_numbers)} numéros d'entreprise valides récupérés depuis MongoDB")
+
+            if len(enterprise_numbers) == 0:
+                print("⚠️  Aucun numéro d'entreprise valide trouvé")
+                print("💡 Vérifiez que le champ 'enterprise_number' existe et n'est pas vide")
+
+            return enterprise_numbers
+
+        except Exception as e:
+            print(f"❌ Erreur lors de la récupération des données MongoDB: {e}")
+            print(f"🔍 Détails: {str(e)}")
+            return []
+
+    def run_spider(self, spider_name: str, enterprise_numbers: List[str]) -> bool:
+        """Exécute un spider avec les numéros d'entreprise fournis"""
+        if not enterprise_numbers:
+            print(f"⚠️  Aucun numéro d'entreprise à traiter pour {spider_name}")
+            return False
+
+        # Joindre les numéros avec des virgules
+        numbers_str = ",".join(enterprise_numbers)
+
+        # Commande Scrapy
+        cmd = [
+            "scrapy", "crawl", spider_name,
+            "-a", f"enterprise_numbers={numbers_str}"
         ]
-        self.results = {}
 
-    def check_mongodb_connection(self):
-        """Vérifier la connexion MongoDB"""
-        try:
-            client = pymongo.MongoClient("mongodb://localhost:27017", serverSelectionTimeoutMS=5000)
-            client.server_info()
-            client.close()
-            logger.info("Connexion MongoDB OK")
-            return True
-        except Exception as e:
-            logger.error(f"Erreur connexion MongoDB: {e}")
-            return False
-
-    def check_dependencies(self):
-        """Vérifier que Scrapy et les dépendances sont installés"""
-        try:
-            result = subprocess.run(['scrapy', 'version'],
-                                    capture_output=True, text=True, check=True)
-            logger.info(f"Scrapy version: {result.stdout.strip()}")
-            return True
-        except (subprocess.CalledProcessError, FileNotFoundError):
-            logger.error("Scrapy n'est pas installé ou accessible")
-            return False
-
-    def get_enterprise_count(self):
-        """Récupérer le nombre d'entreprises en base"""
-        try:
-            client = pymongo.MongoClient("mongodb://localhost:27017")
-            db = client["kbo_db"]
-            count = db.entreprises.count_documents({})
-            client.close()
-            return count
-        except Exception as e:
-            logger.warning(f"Impossible de compter les entreprises: {e}")
-            return 0
-
-    def run_spider(self, spider):
-        """Exécuter un spider individuel"""
-        spider_name = spider['name']
-        logger.info(f"Démarrage de {spider_name}: {spider['description']}")
-
-        start_time = time.time()
+        print(f"🚀 Lancement de {spider_name} avec {len(enterprise_numbers)} numéros...")
+        print(f"Commande: {' '.join(cmd)}")
 
         try:
-            # Changer vers le répertoire du projet
-            os.chdir(os.path.dirname(os.path.abspath(__file__)))
-
             # Exécuter le spider
-            result = subprocess.run(
-                spider['command'],
-                capture_output=True,
-                text=True,
-                timeout=1800  # 30 minutes max par spider
-            )
-
-            duration = time.time() - start_time
+            result = subprocess.run(cmd, capture_output=True, text=True, cwd=os.getcwd())
 
             if result.returncode == 0:
-                logger.info(f"{spider_name} terminé avec succès en {duration:.1f}s")
-                status = 'SUCCESS'
-                error_msg = None
+                print(f"✅ {spider_name} terminé avec succès")
+                return True
             else:
-                logger.error(f"{spider_name} échoué (code {result.returncode})")
-                logger.error(f"STDERR: {result.stderr}")
-                status = 'FAILED'
-                error_msg = result.stderr
-
-        except subprocess.TimeoutExpired:
-            logger.error(f"{spider_name} interrompu (timeout 30min)")
-            status = 'TIMEOUT'
-            error_msg = "Timeout après 30 minutes"
-            duration = 1800
-
-        except Exception as e:
-            logger.error(f"Erreur inattendue pour {spider_name}: {e}")
-            status = 'ERROR'
-            error_msg = str(e)
-            duration = time.time() - start_time
-
-        return {
-            'spider': spider_name,
-            'status': status,
-            'duration': duration,
-            'error': error_msg,
-            'stdout': getattr(result, 'stdout', ''),
-            'stderr': getattr(result, 'stderr', '')
-        }
-
-    def run_sequential(self):
-        """Exécuter les spiders de manière séquentielle"""
-        logger.info("Mode séquentiel: exécution des spiders un par un")
-
-        # Trier par priorité
-        sorted_spiders = sorted(self.spiders, key=lambda x: x['priority'])
-
-        for spider in sorted_spiders:
-            result = self.run_spider(spider)
-            self.results[spider['name']] = result
-
-            # Petite pause entre les spiders
-            if spider != sorted_spiders[-1]:  # Pas de pause après le dernier
-                logger.info("Pause de 10 secondes avant le prochain spider...")
-                time.sleep(10)
-
-    def run_parallel(self, max_workers=2):
-        """Exécuter les spiders en parallèle (attention aux ressources)"""
-        logger.info(f"Mode parallèle: exécution avec {max_workers} workers")
-
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            # Soumettre tous les spiders
-            future_to_spider = {
-                executor.submit(self.run_spider, spider): spider
-                for spider in self.spiders
-            }
-
-            # Récupérer les résultats au fur et à mesure
-            for future in as_completed(future_to_spider):
-                spider = future_to_spider[future]
-                try:
-                    result = future.result()
-                    self.results[spider['name']] = result
-                except Exception as e:
-                    logger.error(f"Erreur avec {spider['name']}: {e}")
-                    self.results[spider['name']] = {
-                        'spider': spider['name'],
-                        'status': 'ERROR',
-                        'duration': 0,
-                        'error': str(e)
-                    }
-
-    def generate_report(self):
-        """Générer un rapport de l'exécution"""
-        logger.info("\n" + "=" * 60)
-        logger.info("RAPPORT D'EXÉCUTION")
-        logger.info("=" * 60)
-
-        total_duration = 0
-        success_count = 0
-
-        for spider_name, result in self.results.items():
-            logger.info(f"{spider_name}: {result['status']} ({result['duration']:.1f}s)")
-
-            if result['error']:
-                logger.info(f"   Erreur: {result['error']}")
-
-            total_duration += result['duration']
-            if result['status'] == 'SUCCESS':
-                success_count += 1
-
-        logger.info(f"\nRésumé:")
-        logger.info(f"   • Spiders exécutés: {len(self.results)}")
-        logger.info(f"   • Succès: {success_count}/{len(self.results)}")
-        logger.info(f"   • Durée totale: {total_duration:.1f}s")
-        logger.info(f"   • Mode: {self.mode}")
-
-        # Stats MongoDB
-        enterprise_count = self.get_enterprise_count()
-        if enterprise_count > 0:
-            logger.info(f"   • Entreprises en base: {enterprise_count}")
-
-    def save_results_to_file(self):
-        """Sauvegarder les résultats dans un fichier JSON"""
-        import json
-
-        report_data = {
-            'timestamp': datetime.now().isoformat(),
-            'mode': self.mode,
-            'limit': self.limit,
-            'results': self.results,
-            'summary': {
-                'total_spiders': len(self.results),
-                'successful': sum(1 for r in self.results.values() if r['status'] == 'SUCCESS'),
-                'total_duration': sum(r['duration'] for r in self.results.values())
-            }
-        }
-
-        filename = f"spider_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(report_data, f, indent=2, ensure_ascii=False)
-
-        logger.info(f"Rapport sauvegardé: {filename}")
-
-    def run(self):
-        """Méthode principale pour lancer tous les spiders"""
-        logger.info(f"Démarrage du runner KBO (limit={self.limit}, mode={self.mode})")
-
-        # Vérifications préalables
-        if not self.check_dependencies():
-            return False
-
-        if not self.check_mongodb_connection():
-            return False
-
-        start_time = time.time()
-
-        try:
-            if self.mode == 'sequential':
-                self.run_sequential()
-            elif self.mode == 'parallel':
-                self.run_parallel(max_workers=2)
-            else:
-                logger.error(f"Mode inconnu: {self.mode}")
+                print(f"❌ {spider_name} a échoué:")
+                print(f"STDOUT: {result.stdout}")
+                print(f"STDERR: {result.stderr}")
                 return False
 
-        except KeyboardInterrupt:
-            logger.warning("Interruption par l'utilisateur (Ctrl+C)")
+        except Exception as e:
+            print(f"❌ Erreur lors de l'exécution de {spider_name}: {e}")
             return False
+
+    def run_kbo_spider_with_csv(self, limit: Optional[int] = None) -> bool:
+        """Exécute le spider KBO (qui utilise déjà un CSV)"""
+        cmd = ["scrapy", "crawl", "kbo_spider"]
+        if limit:
+            print(f"⚠️  Note: kbo_spider utilise son propre fichier CSV, le paramètre limit est ignoré")
+
+        print(f"🚀 Lancement de kbo_spider...")
+
+        try:
+            result = subprocess.run(cmd, capture_output=True, text=True, cwd=os.getcwd())
+
+            if result.returncode == 0:
+                print(f"✅ kbo_spider terminé avec succès")
+                return True
+            else:
+                print(f"❌ kbo_spider a échoué:")
+                print(f"STDOUT: {result.stdout}")
+                print(f"STDERR: {result.stderr}")
+                return False
 
         except Exception as e:
-            logger.error(f"Erreur inattendue: {e}")
+            print(f"❌ Erreur lors de l'exécution de kbo_spider: {e}")
             return False
-
-        finally:
-            total_time = time.time() - start_time
-            logger.info(f"Temps total d'exécution: {total_time:.1f}s")
-            self.generate_report()
-            self.save_results_to_file()
-
-        return True
 
 
 def main():
-    """Point d'entrée principal"""
-    parser = argparse.ArgumentParser(description='Lanceur de spiders KBO')
-
-    parser.add_argument(
-        '--limit', '-l',
-        type=int,
-        default=10,
-        help='Nombre d\'entreprises à traiter (défaut: 10)'
-    )
-
-    parser.add_argument(
-        '--mode', '-m',
-        choices=['sequential', 'parallel'],
-        default='sequential',
-        help='Mode d\'exécution: sequential (défaut) ou parallel'
-    )
-
-    parser.add_argument(
-        '--spider', '-s',
-        choices=['kbo_spider', 'ejustice_spider', 'consult_spider'],
-        help='Exécuter un seul spider spécifique'
-    )
-
-    parser.add_argument(
-        '--dry-run', '-d',
-        action='store_true',
-        help='Mode test: affiche ce qui serait exécuté sans le faire'
-    )
+    parser = argparse.ArgumentParser(description="Exécuteur de spiders KBO")
+    parser.add_argument("--spider", choices=["kbo_spider", "ejustice_spider", "consult_spider", "all"],
+                        required=True, help="Spider à exécuter")
+    parser.add_argument("--limit", type=int, help="Nombre maximum d'entreprises à traiter")
+    parser.add_argument("--mongo-uri", default="mongodb://localhost:27017", help="URI MongoDB")
+    parser.add_argument("--mongo-db", default="kbo_db", help="Base de données MongoDB")
+    parser.add_argument("--diagnose", action="store_true", help="Effectuer un diagnostic de la base de données")
 
     args = parser.parse_args()
 
-    if args.dry_run:
-        logger.info("[TEST] MODE DRY-RUN: simulation d'exécution")
-        runner = SpiderRunner(limit=args.limit, mode=args.mode)
-        for spider in runner.spiders:
-            logger.info(f"Commande: {' '.join(spider['command'])}")
+    runner = SpiderRunner(args.mongo_uri, args.mongo_db)
+
+    # Test de la connexion MongoDB
+    if not runner.test_mongodb_connection():
+        sys.exit(1)
+
+    # Diagnostic si demandé
+    if args.diagnose:
+        runner.diagnose_database()
         return
 
-    if args.spider:
-        # Exécution d'un seul spider
-        logger.info(f"[SPIDER] Exécution du spider: {args.spider}")
+    if args.spider == "kbo_spider":
+        # KBO spider utilise son propre CSV
+        success = runner.run_kbo_spider_with_csv(args.limit)
+        sys.exit(0 if success else 1)
 
-        command = ['scrapy', 'crawl', args.spider]
-        if args.spider in ['ejustice_spider', 'consult_spider']:
-            command.extend(['-a', f'limit={args.limit}'])
+    elif args.spider == "all":
+        # Phase 1: Exécuter KBO spider d'abord (pour remplir la DB)
+        print("\n" + "=" * 50)
+        print("Phase 1: KBO Spider - Récupération des données de base")
+        print("=" * 50)
+        kbo_success = runner.run_kbo_spider_with_csv()
 
-        try:
-            result = subprocess.run(command, check=True)
-            logger.info(f"[OK] {args.spider} terminé avec succès")
-        except subprocess.CalledProcessError as e:
-            logger.error(f"[ECHEC] {args.spider} échoué: {e}")
+        if not kbo_success:
+            print("❌ Échec du spider KBO - Arrêt de l'exécution")
             sys.exit(1)
+
+        print("✅ KBO Spider terminé - Attente de 5 secondes pour la synchronisation...")
+        time.sleep(5)
+
+        # Phase 2: Récupérer les numéros d'entreprise APRÈS l'exécution de KBO
+        print("\n📋 Récupération des numéros d'entreprise depuis la base mise à jour...")
+        enterprise_numbers = runner.get_enterprise_numbers(args.limit)
+
+        if not enterprise_numbers:
+            print("❌ Aucun numéro d'entreprise trouvé après l'exécution de KBO")
+            print("💡 Vérifiez que le spider KBO a bien inséré des données")
+            sys.exit(1)
+
+        # Phase 3: Exécuter les autres spiders avec les numéros récupérés
+        spiders_to_run = ["ejustice_spider", "consult_spider"]
+        all_success = True
+
+        for spider in spiders_to_run:
+            print("\n" + "=" * 50)
+            print(f"Phase: {spider} - Traitement de {len(enterprise_numbers)} entreprises")
+            print("=" * 50)
+            success = runner.run_spider(spider, enterprise_numbers)
+            all_success = all_success and success
+
+            if success:
+                print(f"✅ {spider} terminé avec succès")
+                # Petite pause entre les spiders
+                if spider != spiders_to_run[-1]:  # Pas de pause après le dernier
+                    print("⏳ Pause de 3 secondes avant le spider suivant...")
+                    time.sleep(3)
+            else:
+                print(f"⚠️  {spider} a échoué mais continue avec les autres...")
+
+        print("\n" + "=" * 60)
+        print(f"🏁 Exécution terminée - Succès global: {'✅' if all_success else '⚠️'}")
+        print("=" * 60)
+        sys.exit(0 if all_success else 1)
+
     else:
-        # Exécution de tous les spiders
-        runner = SpiderRunner(limit=args.limit, mode=args.mode)
-        success = runner.run()
+        # Spider individuel (ejustice ou consult)
+        enterprise_numbers = runner.get_enterprise_numbers(args.limit)
 
-        if not success:
+        if not enterprise_numbers:
+            print("❌ Impossible de récupérer les numéros d'entreprise")
             sys.exit(1)
+
+        success = runner.run_spider(args.spider, enterprise_numbers)
+        sys.exit(0 if success else 1)
 
 
 if __name__ == "__main__":
